@@ -97,3 +97,27 @@ O estabelecimento e o gestor de saúde devem apresentar **justificativa escrita*
 3. **Boletim de Produção Ambulatorial Individualizada (BPA I)**
 
 ### 2.3. Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos,Órteses, Próteses e Materiais Especiais do SUS (SIGTAP)
+
+<! -- [ADICIONAR IMAGEM DO SIGTAP] -->
+
+O **Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos, Órteses, Próteses e Materiais Especiais do SUS** é definido pela sigla **SIGTAP**. Trata-se de um ambiente virtual que permite a **consulta da Tabela de Procedimentos, Medicamentos, Órteses/Próteses e Materiais Especiais (OPM) do SUS**. O sistema é gerenciado pela **Coordenação Geral de Sistemas de Informação (CGSI/DRAC/SAS/MS)**, que disponibiliza a tabela de procedimentos do SUS, com todos os seus atributos, aos estabelecimentos de saúde credenciados ao SUS.
+
+A instituição da **Tabela de Procedimentos, Medicamentos, Órteses/Próteses e Materiais Especiais** no SIGTAP foi feita pela **Portaria GM nº 321 de fevereiro de 2007**, e publicada pela **Portaria GM nº 2848 de novembro de 2007**. A legislação que regula o sistema de gestão da Tabela de Procedimentos do SUS é regida pela **Portaria de Consolidação nº 1, de 28 de setembro de 2017**.
+
+Este instrumento de gestão possibilita **acesso à Tabela de Procedimentos do SUS** e o acompanhamento das **alterações realizadas a cada competência**, com detalhamento das características dos procedimentos, compatibilidades e relacionamentos.
+
+O **SIGTAP** permite conhecer todas as características de um procedimento, como:
+
+- **Tipo de financiamento**
+- **Instrumento de registro**
+- **Valor**
+- **Classificação Brasileira de Ocupações (CBO)**
+- **Classificação Internacional de Doenças (CID)**
+- **Serviço/classificação**
+- **Habilitações**
+- **Incrementos financeiros**
+- **Complexidade**
+
+Além disso, o SIGTAP possibilita a extração de diversos **relatórios**, como o de relacionamento e o de compatibilidade entre procedimentos, que **norteiam as ações do faturamento da conta hospitalar**, indicando as principais alterações realizadas na Tabela de Procedimentos e os documentos que as originaram.
+
+Portanto, o SIGTAP é uma ferramenta essencial para a **gestão do faturamento do SUS**, fornecendo todas as informações necessárias ao processo de faturamento e sendo indispensável para a **auditoria em saúde**.
