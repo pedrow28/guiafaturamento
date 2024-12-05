@@ -56,11 +56,11 @@ O cadastro no CNES serve como base para diversos sistemas, incluindo:
 
 É de suma importância que os estabelecimentos de saúde mantenham seus dados no CNES **atualizados** para que os sistemas tenham conhecimento da **capacidade instalada** do local, incluindo estrutura física, habilitações e profissionais e suas especialidades. A falta de registro no CNES da capacidade do estabelecimento pode resultar em **glosas e bloqueios da AIH** (Autorização de Internação Hospitalar).
 
-Os **artigos 371 e 372 da Portaria de Consolidação nº 01/GM/MS/2017** estabelecem que a atualização do cadastro de estabelecimentos de saúde deve ocorrer em meio eletrônico, no mínimo mensalmente, ou sempre que houver alterações nas informações. O CNES permite a atualização diária da base nacional, possibilitando o envio de arquivos da base local para a Base de Dados Nacional do CNES sempre que houver necessidade.
+Os **artigos 371 e 372 da Portaria de Consolidação nº 01/GM/MS/2017 **###COLOCAR LINKS##**** estabelecem que a atualização do cadastro de estabelecimentos de saúde deve ocorrer em meio eletrônico, no mínimo mensalmente, ou sempre que houver alterações nas informações. O CNES permite a atualização diária da base nacional, possibilitando o envio de arquivos da base local para a Base de Dados Nacional do CNES sempre que houver necessidade.
 
 Mesmo quando os dados cadastrais de um estabelecimento de saúde permanecem inalterados em uma competência, recomenda-se o envio mensal. Esse envio será reconhecido como **certidão negativa** e atualizará a data da última atualização nacional. As datas de envio e encerramento de cada competência podem ser consultadas no cronograma disponível no **Portal CNES**, no menu “Acesso Rápido/Cronograma” **###COLOCAR LINKS##**.
 
-### 2.2. Cartão Nacional de Saúde - CNS
+### 2.2. Cartão Nacional de Saúde (CNS)
 
 O **Cartão Nacional de Saúde (CNS)** é o documento que **identifica o usuário do SUS**. Ele contém informações como **nome, data de nascimento, telefone, endereço, CPF, RG**, entre outros. O número do CNS funciona como uma **chave de integração** dos sistemas de saúde que precisam identificar pessoas, como pacientes, operadores ou profissionais de saúde. Isso possibilita a criação de um **histórico de atendimentos** de cada pessoa no SUS, permitindo o acesso a dados de sistemas como o de atenção básica, hospitalar e de dispensação de medicamentos, por exemplo.
 
@@ -95,3 +95,5 @@ O estabelecimento e o gestor de saúde devem apresentar **justificativa escrita*
 1. **Autorizações de Internação Hospitalar (AIH)**
 2. **Autorizações de Procedimentos Ambulatoriais (APAC)**
 3. **Boletim de Produção Ambulatorial Individualizada (BPA I)**
+
+### 2.3. Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos,Órteses, Próteses e Materiais Especiais do SUS (SIGTAP)
