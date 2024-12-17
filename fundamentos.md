@@ -15,7 +15,7 @@ Nesta seção, abordaremos os principais componentes que constituem os fundament
 - **AIH (Autorização de Internação Hospitalar)**: Documento essencial para o **registro e faturamento das internações hospitalares**.
 
 Cada um desses elementos será detalhado nas subseções seguintes, com o objetivo de fornecer uma **visão clara e prática** de como eles se **integram ao processo de faturamento** da FHEMIG e do SUS.
-
+---
 ### 2.1. Cadastro Nacional de Estabelecimentos de Saúde (CNES)
 
 O **Cadastro Nacional de Estabelecimentos de Saúde (CNES)** é o sistema que mapeia a **capacidade instalada do Sistema Único de Saúde (SUS)**. Ele coleta dados sobre a **estrutura e os profissionais de saúde** nos estados e municípios, auxiliando os gestores no **planejamento das ações de saúde**.
@@ -61,7 +61,7 @@ O cadastro no CNES serve como base para diversos sistemas, incluindo:
 Os **artigos 371 e 372 da Portaria de Consolidação nº 01/GM/MS/2017 **###COLOCAR LINKS##**** estabelecem que a atualização do cadastro de estabelecimentos de saúde deve ocorrer em meio eletrônico, no mínimo mensalmente, ou sempre que houver alterações nas informações. O CNES permite a atualização diária da base nacional, possibilitando o envio de arquivos da base local para a Base de Dados Nacional do CNES sempre que houver necessidade.
 
 Mesmo quando os dados cadastrais de um estabelecimento de saúde permanecem inalterados em uma competência, recomenda-se o envio mensal. Esse envio será reconhecido como **certidão negativa** e atualizará a data da última atualização nacional. As datas de envio e encerramento de cada competência podem ser consultadas no cronograma disponível no **Portal CNES**, no menu “Acesso Rápido/Cronograma” **###COLOCAR LINKS##**.
-
+---
 ### 2.2. Cartão Nacional de Saúde (CNS)
 
 O **Cartão Nacional de Saúde (CNS)** é o documento que **identifica o usuário do SUS**. Ele contém informações como **nome, data de nascimento, telefone, endereço, CPF, RG**, entre outros. O número do CNS funciona como uma **chave de integração** dos sistemas de saúde que precisam identificar pessoas, como pacientes, operadores ou profissionais de saúde. Isso possibilita a criação de um **histórico de atendimentos** de cada pessoa no SUS, permitindo o acesso a dados de sistemas como o de atenção básica, hospitalar e de dispensação de medicamentos, por exemplo.
@@ -97,7 +97,7 @@ O estabelecimento e o gestor de saúde devem apresentar **justificativa escrita*
 1. **Autorizações de Internação Hospitalar (AIH)**
 2. **Autorizações de Procedimentos Ambulatoriais (APAC)**
 3. **Boletim de Produção Ambulatorial Individualizada (BPA I)**
-
+---
 ### 2.3. Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos,Órteses, Próteses e Materiais Especiais do SUS (SIGTAP)
 
 <! -- [ADICIONAR IMAGEM DO SIGTAP] -->
@@ -123,8 +123,10 @@ O **SIGTAP** permite conhecer todas as características de um procedimento, como
 Além disso, o SIGTAP possibilita a extração de diversos **relatórios**, como o de relacionamento e o de compatibilidade entre procedimentos, que **norteiam as ações do faturamento da conta hospitalar**, indicando as principais alterações realizadas na Tabela de Procedimentos e os documentos que as originaram.
 
 Portanto, o SIGTAP é uma ferramenta essencial para a **gestão do faturamento do SUS**, fornecendo todas as informações necessárias ao processo de faturamento e sendo indispensável para a **auditoria em saúde**.
-
+---
 ### 2.4 Sistema de Informação Ambulatorial (SIA/SUS)
+
+<! -- [ADICIONAR IMAGEM DO SIGTAP] -->
 
 O **Sistema de Informação Ambulatorial (SIA)** surgiu da necessidade do **Ministério da Saúde** de criar um sistema de informação que permitisse o **registro padronizado** dos atendimentos ambulatoriais em **nível nacional**. O objetivo principal era gerar informações que facilitassem o **planejamento, controle, avaliação e auditoria** dos serviços prestados, principalmente com a **descentralização da gestão** do Sistema Único de Saúde (SUS).
 
@@ -184,8 +186,6 @@ Os componentes do sistema envolvem **sistemas de base**, **aplicativos de capta�
      - Contém todos os **procedimentos, atributos e regras** vigentes na competência de processamento, conforme definidos no **SIGTAP**.
      - Disponibilizado mensalmente para **download** no portal do SIA, garantindo a **atualização** dos sistemas.
 
----
-
 O **SIA/SUS** é, portanto, um **instrumento essencial** para a gestão da produção ambulatorial do SUS, contribuindo para a melhoria da qualidade das informações e para a otimização dos processos de planejamento e controle dos serviços de saúde.
 
 #### 2.4.1 Boletim de Produção Ambulatorial (BPA)
@@ -214,4 +214,59 @@ O **BPA** será gradualmente substituído pelo **Conjunto Mínimo de Dados da At
 9. **Sistema de Regulação, Controle e Avaliação (SISRCA)**.
 
 O processo de substituição visa a **unificação e individualização dos registros**, promovendo maior **precisão e qualidade das informações** no **SUS**.
+
+### 2.5 Sistema de Informação Hospitalar - SIH/SUS
+
+<! -- [ADICIONAR IMAGEM DO SIH/SUS] -->
+
+O **Sistema de Informação Hospitalar (SIH/SUS)** teve suas origens em **1979**, quando o INAMPS e a DATAPREV desenvolveram o **Sistema de Assistência Médico-Hospitalar da Previdência Social/Autorização de Internação Hospitalar (SAMHPS/AIH)**. A principal inovação foi a substituição do pagamento por **item** da antiga **Guia de Internação Hospitalar (GIH)** por um pagamento **por pacote**, via **Autorização de Internação Hospitalar (AIH)**. Essa mudança trouxe previsibilidade ao faturamento hospitalar e aos gastos públicos.
+
+Com a **descentralização** das unidades do INAMPS para as **Secretarias Estaduais de Saúde** e a inclusão de **diferentes prestadores de serviços hospitalares**, o sistema passou a ser denominado **Sistema de Informação Hospitalar (SIH)** do SUS, mantendo a **AIH** como o instrumento central.
+
+#### A Autorização de Internação Hospitalar (AIH)
+
+A **AIH** é utilizada para **registrar todos os atendimentos hospitalares** no SUS. Ela propõe um pagamento **fixo** pelos procedimentos médico-hospitalares e inclui:
+
+- **Materiais utilizados**;
+- **Procedimentos realizados**;
+- **Profissionais envolvidos**;
+- **Estrutura hospitalar necessária**.
+
+#### Funcionalidades do SIH/SUS
+
+Inicialmente estruturado com uma **perspectiva contábil**, o SIH expandiu seu uso ao fornecer **dados valiosos** sobre:
+
+- **Diagnósticos**;
+- **Demografia**;
+- **Localização geográfica**;
+- **Consumo de recursos** em cada internação hospitalar.
+
+Atualmente, o **SIH/SUS** registra **mais de 10 milhões de AIHs aprovadas anualmente**. Além de ser essencial para o processamento das **internações hospitalares**, é uma **fonte importante de informações** para:
+
+- **Perfil epidemiológico** da população brasileira;
+- **Avaliação da qualidade da atenção à saúde** no país.
+
+#### Qualidade das Informações no SIH
+
+A qualidade das informações geradas pelo SIH é influenciada pelas **normatizações da assistência hospitalar** e pelas **políticas públicas de saúde do SUS**, que regulam o sistema e impactam as práticas hospitalares.
+
+- Desde a sua criação, diversas **melhorias** foram implementadas para **garantir a qualidade das informações**.
+- A exigência do **Cartão Nacional de Saúde (CNS)** na **AIH** permite a **identificação única dos usuários**, garantindo maior precisão nos registros.
+
+Apesar de algumas **fragilidades persistentes**, o SIH/SUS tem sido amplamente utilizado para **avaliar a morbimortalidade hospitalar**, contribuindo para a **avaliação epidemiológica** e para a formulação de políticas de saúde pública.
+
+#### Finalidades do SIH/SUS
+
+As principais **finalidades** do Sistema de Informação Hospitalar (SIH) incluem:
+
+- **Registrar os atendimentos** aos pacientes internados nos estabelecimentos de saúde do SUS;
+- **Disponibilizar relatórios** para os gestores, com informações direcionadas aos setores de contas e custos hospitalares;
+- **Fornecer conhecimento** sobre aspectos clínicos e epidemiológicos das internações hospitalares realizadas no SUS;
+- **Viabilizar o faturamento** das internações hospitalares no SUS.
+
+O **SIH/SUS** é, portanto, uma ferramenta essencial para a **gestão da saúde pública no Brasil**. Embora tenha surgido com a finalidade de **controle financeiro**, tornou-se um instrumento **fundamental** para o **registro e monitoramento das internações hospitalares**, fornecendo informações valiosas para **análises epidemiológicas** e para a **avaliação da qualidade da atenção à saúde** no Sistema Único de Saúde.
+
+---
+
+
 
