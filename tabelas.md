@@ -73,7 +73,7 @@ O sistema **SIGTAP** está disponível em duas versões:
 - **Versão Web**: Acessada diretamente pela internet.
 - **Versão Desktop**: Disponível para **download**, permitindo o uso sem conexão com a rede.
 
-Para acessar a **versão online**, visite o site do SIGTAP no DATASUS: [http://sigtap.datasus.gov.br](http://sigtap.datasus.gov.br) e clique em **“Acessar Tabela Unificada”**.
+Para acessar a **versão online**, visite o [site do SIGTAP no DATASUS](http://sigtap.datasus.gov.br) e clique em **“Acessar Tabela Unificada”**.
 
 Para baixar a **versão Desktop**, acesse o mesmo endereço eletrônico e clique em **“Download”** no menu superior direito.
 
