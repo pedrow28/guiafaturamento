@@ -1,0 +1,72 @@
+/* ======= ESTILO MINIMALISTA PARA TABELAS ======= */
+
+/* Define um layout mais limpo */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Cabeçalhos minimalistas */
+th {
+    background-color: #f8f9fa; /* Cor de fundo leve */
+    color: #333; /* Cor do texto */
+    font-weight: bold;
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Células da tabela */
+td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Remove bordas e sombras fortes */
+tr {
+    border: none;
+}
+
+/* Alternância de cor nas linhas */
+tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* Hover mais suave */
+tr:hover {
+    background-color: #f0f0f0;
+}
+
+/* Removendo cantos arredondados do cabeçalho */
+th:first-child, td:first-child {
+    border-left: none;
+    border-radius: 0;
+}
+th:last-child, td:last-child {
+    border-right: none;
+    border-radius: 0;
+}
+
+/* Estiliza os botões de paginação do DataTables */
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    border: none;
+    background: transparent;
+    color: #007acc;
+    font-size: 14px;
+    margin: 2px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: #f0f0f0;
+    border-radius: 4px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: #007acc;
+    color: white;
+    border-radius: 4px;
+}

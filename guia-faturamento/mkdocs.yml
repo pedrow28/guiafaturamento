@@ -1,0 +1,22 @@
+site_name: Guia de Faturamento Fhemig
+nav:
+  - Introdução: index.md
+  - Tabelas: tabelas.md
+  - Fluxo do Faturamento: fluxo_faturamento.md
+  - SIH/SUS: SIH_SUS.md
+  - Tópicos Especiais: topicos.md
+  - Auditoria: auditoria.md
+markdown_extensions:
+  - attr_list
+  - md_in_html
+extra_css:
+  - css/custom.css
+  - https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css
+extra_javascript:
+  - https://code.jquery.com/jquery-3.6.0.min.js
+  - https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js
+  - js/tables.js
+  
+
+  
+  

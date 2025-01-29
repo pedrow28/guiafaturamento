@@ -1,8 +1,13 @@
-## 2. Fundamentos do Faturamento
+# 2. Fundamentos do Faturamento
+
+## 2.1 Fundamentos
 
 Os **fundamentos do faturamento hospitalar no SUS** são os alicerces que garantem que todo o processo de **registro, cobrança e recebimento** dos serviços prestados seja realizado de forma **adequada e eficiente**. Esses fundamentos envolvem um conjunto de **sistemas, cadastros e processos** que trabalham de forma integrada para assegurar que cada procedimento realizado seja **devidamente registrado e remunerado** conforme as normas e diretrizes estabelecidas pelo **Ministério da Saúde**.
 
-<! -- [ADICIONAR INFOGRÁFICO NAPKIN] -->
+<figure markdown>
+  ![Fundamentos do faturamento. Elaboração própria](imagens/infografico_fundamentos.png){ width="600" }
+  <figcaption>Fundamentos do faturamento. Elaboração própria</figcaption>
+</figure>
 
 Nesta seção, abordaremos os principais componentes que constituem os fundamentos do faturamento no SUS. Cada um desses componentes tem um papel **crucial no registro e na cobrança dos serviços de saúde**, e sua compreensão é essencial para garantir a eficiência do processo de faturamento. Os principais componentes que iremos abordar nas subseções seguintes são:
 
@@ -15,13 +20,17 @@ Nesta seção, abordaremos os principais componentes que constituem os fundament
 - **AIH (Autorização de Internação Hospitalar)**: Documento essencial para o **registro e faturamento das internações hospitalares**.
 
 Cada um desses elementos será detalhado nas subseções seguintes, com o objetivo de fornecer uma **visão clara e prática** de como eles se **integram ao processo de faturamento** da FHEMIG e do SUS.
+
 ---
-### 2.1. Cadastro Nacional de Estabelecimentos de Saúde (CNES)
 
-O **Cadastro Nacional de Estabelecimentos de Saúde (CNES)** é o sistema que mapeia a **capacidade instalada do Sistema Único de Saúde (SUS)**. Ele coleta dados sobre a **estrutura e os profissionais de saúde** nos estados e municípios, auxiliando os gestores no **planejamento das ações de saúde**.
+## 2.2  Cadastro Nacional de Estabelecimentos de Saúde (CNES)
 
-<! -- [ADICIONAR IMAGEM DO SITE DO CNES] -->
-*Fonte: https://cnes.datasus.gov.br/*
+O [**Cadastro Nacional de Estabelecimentos de Saúde (CNES)**](https://cnes.datasus.gov.br/) é o sistema que mapeia a **capacidade instalada do Sistema Único de Saúde (SUS)**. Ele coleta dados sobre a **estrutura e os profissionais de saúde** nos estados e municípios, auxiliando os gestores no **planejamento das ações de saúde**.
+
+<figure markdown>
+  ![Página inicial do CNES. Elaboração própria.](imagens/site_cnes.PNG){ width="600" }
+  <figcaption>Página inicial do CNES. Elaboração própria.</figcaption>
+</figure>
 
 O CNES é destinado a toda a população brasileira e envolve os seguintes **atores e papéis**:
 
@@ -60,13 +69,13 @@ O cadastro no CNES serve como base para diversos sistemas, incluindo:
 
 Os **artigos 371 e 372 da Portaria de Consolidação nº 01/GM/MS/2017 **###COLOCAR LINKS##**** estabelecem que a atualização do cadastro de estabelecimentos de saúde deve ocorrer em meio eletrônico, no mínimo mensalmente, ou sempre que houver alterações nas informações. O CNES permite a atualização diária da base nacional, possibilitando o envio de arquivos da base local para a Base de Dados Nacional do CNES sempre que houver necessidade.
 
-Mesmo quando os dados cadastrais de um estabelecimento de saúde permanecem inalterados em uma competência, recomenda-se o envio mensal. Esse envio será reconhecido como **certidão negativa** e atualizará a data da última atualização nacional. As datas de envio e encerramento de cada competência podem ser consultadas no cronograma disponível no **Portal CNES**, no menu “Acesso Rápido/Cronograma” **###COLOCAR LINKS##**.
+Mesmo quando os dados cadastrais de um estabelecimento de saúde permanecem inalterados em uma competência, recomenda-se o envio mensal. Esse envio será reconhecido como **certidão negativa** e atualizará a data da última atualização nacional. As datas de envio e encerramento de cada competência podem ser consultadas no cronograma disponível no **Portal CNES**, no menu [Acesso Rápido/Cronograma](https://wiki.saude.gov.br/cnes/index.php/Cronograma).
+
 ---
-### 2.2. Cartão Nacional de Saúde (CNS)
 
-O **Cartão Nacional de Saúde (CNS)** é o documento que **identifica o usuário do SUS**. Ele contém informações como **nome, data de nascimento, telefone, endereço, CPF, RG**, entre outros. O número do CNS funciona como uma **chave de integração** dos sistemas de saúde que precisam identificar pessoas, como pacientes, operadores ou profissionais de saúde. Isso possibilita a criação de um **histórico de atendimentos** de cada pessoa no SUS, permitindo o acesso a dados de sistemas como o de atenção básica, hospitalar e de dispensação de medicamentos, por exemplo.
+## 2.3 Cartão Nacional de Saúde (CNS)
 
-<! -- [ADICIONAR IMAGEM DO CNS] -->
+O [**Cartão Nacional de Saúde (CNS)**](https://www.gov.br/saude/pt-br/acesso-a-informacao/acoes-e-programas/cns) é o documento que **identifica o usuário do SUS**. Ele contém informações como **nome, data de nascimento, telefone, endereço, CPF, RG**, entre outros. O número do CNS funciona como uma **chave de integração** dos sistemas de saúde que precisam identificar pessoas, como pacientes, operadores ou profissionais de saúde. Isso possibilita a criação de um **histórico de atendimentos** de cada pessoa no SUS, permitindo o acesso a dados de sistemas como o de atenção básica, hospitalar e de dispensação de medicamentos, por exemplo.
 
 Os principais **benefícios do CNS** incluem:
 
@@ -97,8 +106,8 @@ O estabelecimento e o gestor de saúde devem apresentar **justificativa escrita*
 1. **Autorizações de Internação Hospitalar (AIH)**
 2. **Autorizações de Procedimentos Ambulatoriais (APAC)**
 3. **Boletim de Produção Ambulatorial Individualizada (BPA I)**
----
-### 2.3. Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos,Órteses, Próteses e Materiais Especiais do SUS (SIGTAP)
+
+## 2.3. Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos,Órteses, Próteses e Materiais Especiais do SUS (SIGTAP)
 
 <! -- [ADICIONAR IMAGEM DO SIGTAP] -->
 
@@ -123,8 +132,9 @@ O **SIGTAP** permite conhecer todas as características de um procedimento, como
 Além disso, o SIGTAP possibilita a extração de diversos **relatórios**, como o de relacionamento e o de compatibilidade entre procedimentos, que **norteiam as ações do faturamento da conta hospitalar**, indicando as principais alterações realizadas na Tabela de Procedimentos e os documentos que as originaram.
 
 Portanto, o SIGTAP é uma ferramenta essencial para a **gestão do faturamento do SUS**, fornecendo todas as informações necessárias ao processo de faturamento e sendo indispensável para a **auditoria em saúde**.
----
-### 2.4 Sistema de Informação Ambulatorial (SIA/SUS)
+
+
+## 2.4 Sistema de Informação Ambulatorial (SIA/SUS)
 
 <! -- [ADICIONAR IMAGEM DO SIGTAP] -->
 
@@ -215,7 +225,7 @@ O **BPA** será gradualmente substituído pelo **Conjunto Mínimo de Dados da At
 
 O processo de substituição visa a **unificação e individualização dos registros**, promovendo maior **precisão e qualidade das informações** no **SUS**.
 
-### 2.5 Sistema de Informação Hospitalar - SIH/SUS
+## 2.5 Sistema de Informação Hospitalar - SIH/SUS
 
 <! -- [ADICIONAR IMAGEM DO SIH/SUS] -->
 
