@@ -13,6 +13,14 @@ Uma gestão de faturamento correta possibilita um **controle eficaz dos custos**
 
 Neste contexto, o **Guia de Faturamento Hospitalar da FHEMIG** foi desenvolvido para **apoiar os gestores e profissionais de saúde** da Fundação Hospitalar do Estado de Minas Gerais, fornecendo diretrizes claras sobre o processo de faturamento. Este guia está alinhado às normativas federais e estabelece procedimentos que garantem o correto registro dos serviços prestados, contribuindo para a padronização e eficiência dos processos no âmbito do SUS.
 
+
+!!! abstract "Objetivo deste Guia"
+    Este guia foi desenvolvido para **padronizar os processos de faturamento hospitalar na FHEMIG**, garantindo maior eficiência, transparência e conformidade com as normativas do SUS.
+
+
+
+
+
 ---
 
 ## Objetivos do Guia
@@ -55,15 +63,9 @@ d) **Auditores internos**: Os auditores internos são responsáveis por revisar,
   <figcaption>Atores envolvidos no faturamento. Elaboração própria.</figcaption>
 </figure>
 
-O faturamento no SUS envolve a participação coordenada de diversos atores, cada um com responsabilidades específicas para garantir a correta alocação e o uso dos recursos públicos destinados à saúde. A seguir, estão descritos os principais atores envolvidos neste processo:
 
-a) **Ministério da Saúde**: O Ministério da Saúde é o órgão central responsável por regulamentar e definir as normas e diretrizes gerais que norteiam o processo de faturamento no SUS. Entre suas funções principais estão o estabelecimento dos critérios para o faturamento dos serviços de saúde, a definição dos procedimentos que podem ser cobrados e seus respectivos valores, além da transferência de recursos financeiros para estados e municípios. O Ministério também oferece sistemas informatizados, como o SIA/SUS e o SIH/SUS, que auxiliam no registro, acompanhamento e controle dos procedimentos realizados.
 
-b) **Gestor Municipal**: Representado pela Secretaria Municipal de Saúde, o gestor municipal é responsável por gerenciar e operacionalizar o faturamento dos serviços de saúde oferecidos pelo SUS em nível local. Ele coleta, revisa e valida os dados enviados pelas unidades de saúde do município, garantindo que todos os procedimentos faturados estejam de acordo com as diretrizes nacionais, estaduais e municipais. Além disso, o gestor municipal assegura a comunicação eficiente com o Ministério da Saúde e o gestor estadual, viabilizando o envio regular das informações essenciais para garantir o recebimento dos repasses financeiros.
 
-c) **Unidades de Saúde**: As unidades de saúde são responsáveis pela execução dos serviços de saúde e pelo registro detalhado de cada atendimento. Esse registro deve incluir todos os procedimentos realizados, materiais e medicamentos utilizados, bem como diagnósticos e encaminhamentos feitos. As unidades devem seguir rigorosamente os critérios de faturamento e preencher corretamente os sistemas informatizados disponibilizados pelo Ministério da Saúde, revisando internamente os dados antes de enviá-los ao gestor municipal para evitar erros e garantir que o faturamento reflita fielmente os serviços prestados.
-
-d) **Gestor Estadual**: O gestor estadual atua na coordenação dos serviços de saúde em nível estadual, garantindo a integração e padronização dos processos de faturamento em todas as unidades de saúde sob sua gestão. Além disso, ele é responsável por consolidar as informações dos municípios e encaminhá-las ao Ministério da Saúde, assegurando que os repasses financeiros sejam realizados de forma adequada e que os recursos sejam aplicados de acordo com as prioridades estabelecidas.
 
 # Fundamentos do Faturamento
 
@@ -101,10 +103,13 @@ O [**Cadastro Nacional de Estabelecimentos de Saúde (CNES)**](https://cnes.data
 
 O CNES é destinado a toda a população brasileira e envolve os seguintes **atores e papéis**:
 
-- **Estabelecimentos de saúde**: Registram todos os seus dados, SUS ou não SUS, por meio da aplicação disponibilizada pelo Ministério da Saúde e os enviam periodicamente.
-- **Secretarias de Saúde**: Acessam os estabelecimentos de saúde do seu território por meio do CNES e são responsáveis pela manutenção dos dados dos estabelecimentos sob a gestão de cada ente federado.
-- **Ministério da Saúde**: Acessa todos os estabelecimentos de saúde do país no CNES, além de monitorar indicadores de envio de dados por estados, municípios e regiões de saúde.
-- **Cidadãos**: Podem consultar os estabelecimentos de saúde através da consulta pública no site do CNES **###COLOCAR LINKS##**, visualizando os dados públicos por meio de ferramentas como **Tabwin** e **Tabnet** **###COLOCAR LINKS##**.
+| **Atores**                  | **Papel** |
+|-----------------------------|----------|
+| **Estabelecimentos de Saúde** | Registram todos os seus dados, SUS ou não SUS, por meio da aplicação disponibilizada pelo Ministério da Saúde e os enviam periodicamente. |
+| **Secretarias de Saúde**      | Acessam os estabelecimentos de saúde do seu território por meio do CNES e são responsáveis pela manutenção dos dados dos estabelecimentos sob a gestão de cada ente federado. |
+| **Ministério da Saúde**       | Acessa todos os estabelecimentos de saúde do país no CNES, além de monitorar indicadores de envio de dados por estados, municípios e regiões de saúde. |
+| **Cidadãos**                  | Podem consultar os estabelecimentos de saúde através da consulta pública no site do CNES, visualizando os dados públicos por meio de ferramentas como **Tabwin** e **Tabnet**. |
+
 
 O CNES coleta as seguintes **informações principais**:
 
@@ -132,9 +137,11 @@ O cadastro no CNES serve como base para diversos sistemas, incluindo:
 - **Sistema de Informações da ANS**
 - **Gerenciador de Informações Locais (GIL)**
 
-É de suma importância que os estabelecimentos de saúde mantenham seus dados no CNES **atualizados** para que os sistemas tenham conhecimento da **capacidade instalada** do local, incluindo estrutura física, habilitações e profissionais e suas especialidades. A falta de registro no CNES da capacidade do estabelecimento pode resultar em **glosas e bloqueios da AIH** (Autorização de Internação Hospitalar).
+!!! tip "Importância do CNES"
+    É de suma importância que os estabelecimentos de saúde mantenham seus dados no CNES **atualizados** para que os sistemas tenham conhecimento da **capacidade instalada** do local, incluindo estrutura física, habilitações e profissionais e suas especialidades. A falta de registro no CNES da capacidade do estabelecimento pode resultar em **glosas e bloqueios da AIH** (Autorização de Internação Hospitalar).
 
-Os **artigos 371 e 372 da Portaria de Consolidação nº 01/GM/MS/2017 **###COLOCAR LINKS##**** estabelecem que a atualização do cadastro de estabelecimentos de saúde deve ocorrer em meio eletrônico, no mínimo mensalmente, ou sempre que houver alterações nas informações. O CNES permite a atualização diária da base nacional, possibilitando o envio de arquivos da base local para a Base de Dados Nacional do CNES sempre que houver necessidade.
+!!! warning "Atualização obrigatória"
+    Os **artigos 371 e 372 da Portaria de Consolidação nº 01/GM/MS/2017** estabelecem que a atualização do cadastro de estabelecimentos de saúde deve ocorrer em meio eletrônico, no mínimo mensalmente, ou sempre que houver alterações nas informações. O CNES permite a atualização diária da base nacional, possibilitando o envio de arquivos da base local para a Base de Dados Nacional do CNES sempre que houver necessidade.
 
 Mesmo quando os dados cadastrais de um estabelecimento de saúde permanecem inalterados em uma competência, recomenda-se o envio mensal. Esse envio será reconhecido como **certidão negativa** e atualizará a data da última atualização nacional. As datas de envio e encerramento de cada competência podem ser consultadas no cronograma disponível no **Portal CNES**, no menu [Acesso Rápido/Cronograma](https://wiki.saude.gov.br/cnes/index.php/Cronograma).
 
@@ -157,7 +164,8 @@ O CNS faz parte da política de **e-Saúde do Ministério da Saúde**, que visa 
 
 A partir do cadastramento do usuário e da emissão do CNS, com a integração dos sistemas por meio do número do cartão, torna-se possível **identificar o usuário em todos os seus contatos com o SUS** e acompanhar sua evolução dentro do sistema, com efeitos positivos tanto na **atenção individual** quanto no **planejamento das ações de saúde**.
 
-Conforme a **Portaria Conjunta nº 2, de 15 de março de 2012** do Ministério da Saúde, o preenchimento do número do CNS do usuário é **obrigatório para o registro dos procedimentos ambulatoriais e hospitalares** nos instrumentos de registro das ações de saúde do Ministério da Saúde. O registro do número do CNS deve ser providenciado no ato da admissão do paciente.
+!!! warning "Obrigatoriedade do CNS"
+    Conforme a **Portaria Conjunta nº 2, de 15 de março de 2012** do Ministério da Saúde, o preenchimento do número do CNS do usuário é **obrigatório para o registro dos procedimentos ambulatoriais e hospitalares** nos instrumentos de registro das ações de saúde do Ministério da Saúde. O registro do número do CNS deve ser providenciado no ato da admissão do paciente.
 
 Caso o usuário das ações e serviços de saúde não possua cadastro na **Base Nacional de Dados dos Usuários das Ações e Serviços de Saúde**, o estabelecimento de saúde deve realizar o cadastro por meio do aplicativo disponibilizado pelo DATASUS na internet.
 
@@ -176,9 +184,12 @@ O estabelecimento e o gestor de saúde devem apresentar **justificativa escrita*
 
 ## Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos,Órteses, Próteses e Materiais Especiais do SUS (SIGTAP)
 
-[Image](./imagens/sigtap.PNG)
+<figure markdown>
+  ![Página inicial do CNES. Elaboração própria.](imagens/sigtap.PNG){ width="600" }
+  <figcaption>Página inicial SIGTAP.</figcaption>
+</figure>
 
-O **Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos, Órteses, Próteses e Materiais Especiais do SUS** é definido pela sigla **SIGTAP**. Trata-se de um ambiente virtual que permite a **consulta da Tabela de Procedimentos, Medicamentos, Órteses/Próteses e Materiais Especiais (OPM) do SUS**. O sistema é gerenciado pela **Coordenação Geral de Sistemas de Informação (CGSI/DRAC/SAS/MS)**, que disponibiliza a tabela de procedimentos do SUS, com todos os seus atributos, aos estabelecimentos de saúde credenciados ao SUS.
+O [**Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos, Órteses, Próteses e Materiais Especiais do SUS**](http://sigtap.datasus.gov.br/tabela-unificada/app/sec/procedimento/publicados/consultar) é definido pela sigla **SIGTAP**. Trata-se de um ambiente virtual que permite a **consulta da Tabela de Procedimentos, Medicamentos, Órteses/Próteses e Materiais Especiais (OPM) do SUS**. O sistema é gerenciado pela **Coordenação Geral de Sistemas de Informação (CGSI/DRAC/SAS/MS)**, que disponibiliza a tabela de procedimentos do SUS, com todos os seus atributos, aos estabelecimentos de saúde credenciados ao SUS.
 
 A instituição da **Tabela de Procedimentos, Medicamentos, Órteses/Próteses e Materiais Especiais** no SIGTAP foi feita pela **Portaria GM nº 321 de fevereiro de 2007**, e publicada pela **Portaria GM nº 2848 de novembro de 2007**. A legislação que regula o sistema de gestão da Tabela de Procedimentos do SUS é regida pela **Portaria de Consolidação nº 1, de 28 de setembro de 2017**.
 
@@ -213,7 +224,9 @@ Em **1996**, foi instituída a **Autorização de Procedimentos Ambulatoriais de
 - **Identificação do profissional executante**;
 - **Diagnóstico do paciente**.
 
-Com a instituição da **Tabela de Procedimentos, Medicamentos, Órteses/Próteses e Materiais Especiais (OPM) do SUS**, pela **Portaria GM/MS nº 321, de 8 de fevereiro de 2007**, as tabelas de procedimentos do **SIA** e do **SIH** foram **unificadas**.
+!!! info "Unificação tabelas SIH e SIA"
+
+    Com a instituição da **Tabela de Procedimentos, Medicamentos, Órteses/Próteses e Materiais Especiais (OPM) do SUS**, pela **Portaria GM/MS nº 321, de 8 de fevereiro de 2007**, as tabelas de procedimentos do **SIA** e do **SIH** foram **unificadas**.
 
 O **SIA** é o sistema responsável por **gerir informações ambulatoriais do SUS** e subsidiar os gestores estaduais e municipais nos processos de:
 
@@ -267,12 +280,16 @@ O **SIA/SUS** é, portanto, um **instrumento essencial** para a gestão da produ
 
 O **Boletim de Produção Ambulatorial (BPA)** é um instrumento utilizado para **registrar os atendimentos ambulatoriais** que **não exigem autorização prévia** do gestor. O registro pode ser feito de duas formas:
 
-1. **BPA-C (Consolidado)**: Não especifica o paciente atendido, registrando apenas a quantidade de procedimentos realizados.
-2. **BPA-I (Individualizado)**: Identifica o paciente atendido e inclui informações detalhadas sobre os procedimentos realizados.
+| **Tipo de BPA**            | **Descrição** |
+|----------------------------|--------------|
+| **BPA-C (Consolidado)**    | Não especifica o paciente atendido, registrando apenas a quantidade de procedimentos realizados. |
+| **BPA-I (Individualizado)** | Identifica o paciente atendido e inclui informações detalhadas sobre os procedimentos realizados. |
+
 
 A **Tabela de Procedimentos, Órteses, Próteses e Materiais Especiais do SUS** define qual tipo de registro deve ser utilizado para cada procedimento. 
 
-É importante destacar que **todos os procedimentos registrados no BPA-C também podem ser registrados no BPA-I**. Recomenda-se que as unidades de saúde utilizem preferencialmente o **BPA-I**, pois ele garante **maior qualidade das informações** e permite a identificação individualizada dos atendimentos.
+!!! warning "BPA-C e BPA-I"
+    É importante destacar que **todos os procedimentos registrados no BPA-C também podem ser registrados no BPA-I**. Recomenda-se que as unidades de saúde utilizem preferencialmente o **BPA-I**, pois ele garante **maior qualidade das informações** e permite a identificação individualizada dos atendimentos.
 
 Substituição pelo CMD
 
@@ -295,7 +312,8 @@ O processo de substituição visa a **unificação e individualização dos regi
 
 O **Sistema de Informação Hospitalar (SIH/SUS)** teve suas origens em **1979**, quando o INAMPS e a DATAPREV desenvolveram o **Sistema de Assistência Médico-Hospitalar da Previdência Social/Autorização de Internação Hospitalar (SAMHPS/AIH)**. A principal inovação foi a substituição do pagamento por **item** da antiga **Guia de Internação Hospitalar (GIH)** por um pagamento **por pacote**, via **Autorização de Internação Hospitalar (AIH)**. Essa mudança trouxe previsibilidade ao faturamento hospitalar e aos gastos públicos.
 
-Com a **descentralização** das unidades do INAMPS para as **Secretarias Estaduais de Saúde** e a inclusão de **diferentes prestadores de serviços hospitalares**, o sistema passou a ser denominado **Sistema de Informação Hospitalar (SIH)** do SUS, mantendo a **AIH** como o instrumento central.
+!!! info "SIH"
+    Com a **descentralização** das unidades do INAMPS para as **Secretarias Estaduais de Saúde** e a inclusão de **diferentes prestadores de serviços hospitalares**, o sistema passou a ser denominado **Sistema de Informação Hospitalar (SIH)** do SUS, mantendo a **AIH** como o instrumento central.
 
 #### A Autorização de Internação Hospitalar (AIH)
 
@@ -315,10 +333,11 @@ Inicialmente estruturado com uma **perspectiva contábil**, o SIH expandiu seu u
 - **Localização geográfica**;
 - **Consumo de recursos** em cada internação hospitalar.
 
-Atualmente, o **SIH/SUS** registra **mais de 10 milhões de AIHs aprovadas anualmente**. Além de ser essencial para o processamento das **internações hospitalares**, é uma **fonte importante de informações** para:
+!!! info "Importância da AIH"
+      Atualmente, o **SIH/SUS** registra **mais de 10 milhões de AIHs aprovadas anualmente**. Além de ser essencial para o processamento das **internações hospitalares**, é uma **fonte importante de informações** para:
 
-- **Perfil epidemiológico** da população brasileira;
-- **Avaliação da qualidade da atenção à saúde** no país.
+      - **Perfil epidemiológico** da população brasileira;
+      - **Avaliação da qualidade da atenção à saúde** no país.
 
 #### Qualidade das Informações no SIH
 
@@ -327,7 +346,8 @@ A qualidade das informações geradas pelo SIH é influenciada pelas **normatiza
 - Desde a sua criação, diversas **melhorias** foram implementadas para **garantir a qualidade das informações**.
 - A exigência do **Cartão Nacional de Saúde (CNS)** na **AIH** permite a **identificação única dos usuários**, garantindo maior precisão nos registros.
 
-Apesar de algumas **fragilidades persistentes**, o SIH/SUS tem sido amplamente utilizado para **avaliar a morbimortalidade hospitalar**, contribuindo para a **avaliação epidemiológica** e para a formulação de políticas de saúde pública.
+!!! success "Fonte de informações"
+    Apesar de algumas **fragilidades persistentes**, o SIH/SUS tem sido amplamente utilizado para **avaliar a morbimortalidade hospitalar**, contribuindo para a **avaliação epidemiológica** e para a formulação de políticas de saúde pública.
 
 #### Finalidades do SIH/SUS
 

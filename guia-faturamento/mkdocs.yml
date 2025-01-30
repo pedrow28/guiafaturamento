@@ -1,22 +1,31 @@
 site_name: Guia de Faturamento Fhemig
+
+theme:
+  name: material
+  custom_dir: overrides  # Mantém a personalização
+  features:
+    - navigation.tabs  # Habilita a navegação horizontal
+    - navigation.tabs.sticky  # Mantém a barra fixa ao rolar a página
+    - navigation.sections  # Agrupa seções em dropdowns
+    - toc.integrate  # Move o sumário para a direita
+  palette:
+    scheme: default  # Mantém o azul padrão
+    primary: indigo  # Azul Material padrão
+    accent: blue  # Destaque em azul
+
 nav:
   - Introdução: index.md
   - Tabelas: tabelas.md
   - Fluxo do Faturamento: fluxo_faturamento.md
-  - SIH/SUS: SIH_SUS.md
+  - SIH/SIA: SIH_SUS.md
   - Tópicos Especiais: topicos.md
   - Auditoria: auditoria.md
+  - Links úteis: links.md
+
 markdown_extensions:
   - attr_list
   - md_in_html
-extra_css:
-  - css/custom.css
-  - https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css
-extra_javascript:
-  - https://code.jquery.com/jquery-3.6.0.min.js
-  - https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js
-  - js/tables.js
-  
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
-  
-  

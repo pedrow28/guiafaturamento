@@ -5,6 +5,10 @@ Nesta seção, serão apresentadas as principais **tabelas e códigos** utilizad
 
 As tabelas e códigos desempenham um papel essencial no **registro, processamento e validação** das informações de produção ambulatorial e hospitalar. Elas permitem a padronização dos procedimentos, medicamentos, órteses, próteses e materiais especiais, garantindo que os serviços realizados sejam registrados de forma **uniforme e transparente** em todo o território nacional.
 
+!!! info "Por que as tabelas são essenciais no faturamento?"
+    As tabelas e códigos garantem a **uniformidade e padronização** dos registros, permitindo a correta remuneração dos serviços de saúde.
+  
+
 ## Tabela SIGTAP
 
 <figure markdown>
@@ -14,11 +18,13 @@ As tabelas e códigos desempenham um papel essencial no **registro, processament
 
 O **Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos, Órteses, Próteses e Materiais Especiais do SUS (SIGTAP)** é um ambiente virtual que permite a **consulta da Tabela de Procedimentos, Medicamentos e OPM** do SUS. Gerenciado pela **CGSI/DRAC/SAS/MS**, o SIGTAP disponibiliza a tabela com todos os seus atributos para os estabelecimentos de saúde credenciados ao SUS.
 
-A **instituição da Tabela de Procedimentos** foi publicada pela **Portaria GM nº 321, de fevereiro de 2007**, e regulamentada pela **Portaria GM nº 2848, de novembro de 2007**, estando atualmente sob a **Portaria de Consolidação nº 1, de 28 de setembro de 2017**. Este instrumento de gestão possibilita:
+!!! info "Instituição da tabela de procedimentos"
 
-- **Acesso à Tabela de Procedimentos**;
-- **Acompanhamento das alterações** realizadas a cada competência;
-- **Detalhamento das características** dos procedimentos, incluindo compatibilidades e relacionamentos.
+    A **instituição da Tabela de Procedimentos** foi publicada pela **Portaria GM nº 321, de fevereiro de 2007**, e regulamentada pela **Portaria GM nº 2848, de novembro de 2007**, estando atualmente sob a **Portaria de Consolidação nº 1, de 28 de setembro de 2017**. Este instrumento de gestão possibilita:
+
+    - **Acesso à Tabela de Procedimentos**;
+    - **Acompanhamento das alterações** realizadas a cada competência;
+    - **Detalhamento das características** dos procedimentos, incluindo compatibilidades e relacionamentos.
 
 #### Características dos Procedimentos no SIGTAP
 
@@ -72,7 +78,7 @@ Veja o exemplo ao buscar o Tratamento de Diabetes Mellitus na tabela:
 
 
 <figure markdown>
-  ![Diabete melitus](imagens/sigtap.PNG){ width="800" }
+  ![Diabete melitus](imagens/diabete1.PNG){ width="800" }
   <figcaption>Descrição Diabete melitus. Acesso <a href="http://sigtap.datasus.gov.br/tabela-unificada/app/sec/procedimento/exibir/0303030038/01/2025">aqui</a>.</figcaption>
 </figure>
 
@@ -88,8 +94,11 @@ Confira a codificação na imagem a seguir:
 
 O sistema **SIGTAP** está disponível em duas versões:
 
-- **Versão Web**: Acessada diretamente pela internet.
-- **Versão Desktop**: Disponível para **download**, permitindo o uso sem conexão com a rede.
+| **Versão** | **Descrição** | **Link** |
+|------------|--------------|----------|
+| **Web** | Acessível diretamente via internet. | [SIGTAP Web](http://sigtap.datasus.gov.br) |
+| **Desktop** | Disponível para download e uso offline. | [Download SIGTAP](http://sigtap.datasus.gov.br/tabela-unificada/app/sec/procedimento/download) |
+
 
 Para acessar a **versão online**, visite o [site do SIGTAP no DATASUS](http://sigtap.datasus.gov.br) e clique em **“Acessar Tabela Unificada”**.
 
@@ -106,7 +115,10 @@ A **Tabela do Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos,
 - **Obter Notas Técnicas** mensais;
 - **Importar** a versão da Tabela de Procedimentos para os sistemas de captação e processamento.
 
-Porém, uma questão relevante da tabela é a **defasagem dos valores praticados**, que **não são reajustados há mais de 15 anos**.
+
+!!! note "Atualização dos valores"
+
+    É recorrente a discussão acerca da necessidade de atualização dos valores das tabelas do SIGTAP. A defasagem é de mais de **15 anos**.
 
 No contexto do **faturamento**, além de fornecer dados relativos a cada procedimento, o SIGTAP permite:
 
@@ -121,20 +133,30 @@ Os procedimentos registrados no SIGTAP possuem uma estrutura padronizada, compos
 
 O **identificador numérico** de **10 dígitos** é gerado a partir da estrutura da tabela de procedimentos, obedecendo o formato: **GR.SB.FO.PPP.D**.
 
-- **GR**: Grupo a que pertence o procedimento;
-- **SB**: Subgrupo do procedimento no grupo onde está inserido;
-- **FO**: Forma de Organização no subgrupo;
-- **PPP**: Ordem sequencial do procedimento na Forma de Organização;
-- **D**: Dígito verificador (calculado pelo **Módulo 11**).
+!!! info "Entendendo o código SIGTAP"
+    O código **GR.SB.FO.PPP.D** segue esta estrutura:  
+    - **GR**: Grupo  
+    - **SB**: Subgrupo  
+    - **FO**: Forma de Organização  
+    - **PPP**: Procedimento específico  
+    - **D**: Dígito verificador  
+
+---
 
 **Nome**
 Denominação do procedimento.
 
+---
+
 **Descrição**
 Definição ou detalhamento das características e orientações de uso do procedimento.
 
+---
+
 **Vigência**
 Indica a **competência/mês** de **validade inicial** e **final** do procedimento.
+
+---
 
 **Código de Origem**
 Identifica os códigos que deram origem aos procedimentos registrados na tabela SIGTAP. Pode ser dividido em:
@@ -170,6 +192,8 @@ Identifica o nível de atenção à saúde no qual é possível a realização d
 - Base em dados epidemiológicos, métodos e técnicas.
 - Exigência de alta tecnologia e/ou alto custo.
 
+---
+
 #### **Classificação Brasileira de Ocupações (CBO)**
 Corresponde aos códigos da classificação das ocupações do mercado de trabalho, especificando os profissionais de saúde que poderão realizar o procedimento.
 
@@ -178,31 +202,18 @@ Corresponde aos códigos da classificação das ocupações do mercado de trabal
 #### **Instrumentos de Registro**
 Identifica o instrumento de captação de dados dos atendimentos:
 
-- **Boletim de Produção Ambulatorial Consolidado (BPA-C):**  
-  Instrumento que permite o registro do procedimento de forma agregada, dispensando o processo de autorização.
-
-- **Boletim de Produção Ambulatorial Individualizado (BPA-I):**  
-  Instrumento que permite o registro do procedimento de forma individualizada, com identificação do usuário, bem como sua procedência, idade, sexo, e CID. A exigência de autorização dos procedimentos registrados em BPA-I fica a critério do gestor.
-
-- **Autorização de Procedimento Ambulatorial - APAC (proc. principal):**  
-  Instrumento que permite o registro do procedimento de forma individualizada, com necessidade de autorização prévia, gerando a emissão de APAC. Utilizada para tratamentos contínuos e/ou associados a políticas específicas do Ministério da Saúde.
-
-- **APAC (proc. secundário):**  
-  Instrumento de registro de procedimento que não necessita de autorização prévia, mas depende de compatibilidade com o procedimento principal.
-
-- **Autorização de Internação Hospitalar - AIH (proc. principal):**  
-  Instrumento que permite o registro de procedimentos, necessitando de autorização e gerando a emissão de AIH.
-
-- **Autorização de Internação Hospitalar - AIH (proc. especial):**  
-  Instrumento que permite o registro de procedimento que necessita de autorização, mas não gera AIH.
-
-- **Autorização de Internação Hospitalar - AIH (proc. secundário):**  
-  Instrumento de registro de procedimentos que não necessitam de autorização e não geram AIH.
-
-- **Registro das Ações Ambulatoriais de Saúde (RAAS):**  
-  Instrumento instituído pela PT GM 276 de 30 de março de 2012, utilizado para monitoramento das ações e serviços de saúde conformados em redes de atenção à saúde.  
-  - **RAAS (Atenção Domiciliar):** Utilizado para registrar ações de Atenção Domiciliar. Descontinuado pela PT GM 1653 de 2 de outubro de 2015.  
-  - **RAAS (Atenção Psicossocial):** Utilizado para registrar ações de Atenção Psicossocial. Instituído pela PT SAS 854 de 22 de outubro de 2012.
+| **Instrumento** | **Descrição** |
+|-----------------|--------------|
+| **Boletim de Produção Ambulatorial Consolidado (BPA-C)** | Registro de procedimentos de forma agregada, sem necessidade de autorização. |
+| **Boletim de Produção Ambulatorial Individualizado (BPA-I)** | Registro individualizado de procedimentos, com identificação do paciente e CID. Autorização depende do gestor. |
+| **Autorização de Procedimento Ambulatorial - APAC (proc. principal)** | Registro de procedimentos individuais que necessitam de autorização prévia. Utilizado para tratamentos contínuos e políticas específicas. |
+| **APAC (proc. secundário)** | Registro de procedimentos sem necessidade de autorização prévia, mas dependentes de um procedimento principal. |
+| **Autorização de Internação Hospitalar - AIH (proc. principal)** | Registro de procedimentos hospitalares com necessidade de autorização e emissão de AIH. |
+| **Autorização de Internação Hospitalar - AIH (proc. especial)** | Registro de procedimentos hospitalares que necessitam de autorização, mas não geram AIH. |
+| **Autorização de Internação Hospitalar - AIH (proc. secundário)** | Registro de procedimentos hospitalares que não necessitam de autorização e não geram AIH. |
+| **Registro das Ações Ambulatoriais de Saúde (RAAS)** | Instrumento para monitoramento de ações e serviços de saúde em redes assistenciais. |
+| **RAAS (Atenção Domiciliar)** | Registro de ações de atenção domiciliar (descontinuado pela PT GM 1653/2015). |
+| **RAAS (Atenção Psicossocial)** | Registro de ações de atenção psicossocial (instituído pela PT SAS 854/2012). |
 
 ---
 
@@ -225,8 +236,13 @@ Limite máximo permitido por procedimento:
 
 #### **Valor**
 Valor de referência nacional definido pelo Ministério da Saúde para remuneração do procedimento:
-- **Serviços Hospitalares (SH):** Custos hospitalares como diárias, taxas, materiais, medicamentos e SADT.  
-- **Serviço Profissional (SP):** Atos profissionais (médicos ou cirurgiões dentistas). Inclui anestesia, quando aplicável.
+
+| **Categoria**                   | **Descrição** |
+|----------------------------------|--------------|
+| **Serviços Hospitalares (SH)**   | Custos hospitalares como diárias, taxas, materiais, medicamentos e SADT. |
+| **Serviço Profissional (SP)**    | Atos profissionais (médicos ou cirurgiões-dentistas). Inclui anestesia, quando aplicável. |
+
+
 
 ---
 
@@ -272,13 +288,16 @@ A idade varia em anos de vida de 00 anos a 130 anos
 #### **Tipo de Financiamento**
 É o tipo de financiamento do procedimento em coerência aos blocos de financiamento definidos no **Pacto de Gestão**. Os tipos de financiamento são:
 
-- **01:** Piso de Atenção Básica (PAB)
-- **02:** Assistência de Média e Alta Complexidade (MAC)
-- **04:** Fundo de Ações Estratégicas e Compensação (FAEC)
-- **05:** Incentivo MAC
-- **06:** Assistência Farmacêutica
-- **07:** Vigilância em Saúde
-- **08:** Gestão do SUS
+| **Código** | **Tipo de Financiamento** |
+|:----------:|--------------------------|
+| **01**     | Piso de Atenção Básica (PAB) |
+| **02**     | Assistência de Média e Alta Complexidade (MAC) |
+| **04**     | Fundo de Ações Estratégicas e Compensação (FAEC) |
+| **05**     | Incentivo MAC |
+| **06**     | Assistência Farmacêutica |
+| **07**     | Vigilância em Saúde |
+| **08**     | Gestão do SUS |
+
 
 ---
 
@@ -376,6 +395,10 @@ As regras condicionadas presentes no **SIGTAP** estão na tabela a seguir com:
 - **Descrição**
 - **Vigências Inicial e Final**
 - **Portaria/Documento Relacionado à Inclusão/Encerramento**
+
+!!! danger "Regras que podem levar a glosas"
+    Algumas regras condicionadas resultam na **rejeição automática de AIH/APAC**, caso os critérios não sejam atendidos.
+
 
 | **CÓDIGO/NOME**                                  | **DESCRIÇÃO**                                                                                                                                                                          | **VIGÊNCIA INICIAL/FINAL**        | **PORTARIA/DOCUMENTO RELACIONADO À INCLUSÃO/ENCERRAMENTO**          |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|----------------------------------------------------------------------|
