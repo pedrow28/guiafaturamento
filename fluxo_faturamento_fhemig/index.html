@@ -1,0 +1,2996 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../fluxo_faturamento/">
+      
+      
+        <link rel="next" href="../SIH_SUS/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+    
+    
+      
+        <title>Fluxo de faturamento na Fhemig - Guia de Faturamento Fhemig</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.a40c8224.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#faturamento-no-sistema-de-gestao-hospitalar-sigh" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Guia de Faturamento Fhemig" class="md-header__button md-logo" aria-label="Guia de Faturamento Fhemig" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Guia de Faturamento Fhemig
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Fluxo de faturamento na Fhemig
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Introdução
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../tabelas/" class="md-tabs__link">
+        
+  
+    
+  
+  Tabelas
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../fluxo_faturamento/" class="md-tabs__link">
+        
+  
+    
+  
+  Faturamento do SUS
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Fluxo de faturamento na Fhemig
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../SIH_SUS/" class="md-tabs__link">
+        
+  
+    
+  
+  SIH/SIA
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../topicos/" class="md-tabs__link">
+        
+  
+    
+  
+  Tópicos Especiais
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../auditoria/" class="md-tabs__link">
+        
+  
+    
+  
+  Auditoria
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../links/" class="md-tabs__link">
+        
+  
+    
+  
+  Links úteis
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Guia de Faturamento Fhemig" class="md-nav__button md-logo" aria-label="Guia de Faturamento Fhemig" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Guia de Faturamento Fhemig
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introdução
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tabelas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tabelas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fluxo_faturamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Faturamento do SUS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Fluxo de faturamento na Fhemig
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Fluxo de faturamento na Fhemig
+  </span>
+  
+
+      </a>
+      
+        
+  <nav class="md-nav md-nav--secondary">
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Navegue por esta página
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#faturamento-no-sistema-de-gestao-hospitalar-sigh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Faturamento no Sistema de Gestão Hospitalar - SIGH
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Faturamento no Sistema de Gestão Hospitalar - SIGH">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cadastro-do-paciente-no-guiche" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cadastro do Paciente no Guichê
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cadastro do Paciente no Guichê">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-e-documentos-obrigatorios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações e Documentos Obrigatórios
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ambulatorio-consulta-eletiva" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ambulatório - Consulta Eletiva
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ambulatório - Consulta Eletiva">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-e-documentos-obrigatorios_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações e Documentos Obrigatórios
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#check-list-de-fechamento-de-prontuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Check-list de Fechamento de Prontuário
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Check-list de Fechamento de Prontuário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#identificacao-do-paciente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Identificação do Paciente
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentos-obrigatorios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentos Obrigatórios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedimentos-finais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procedimentos Finais
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pronto-atendimento-pa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pronto Atendimento (PA)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pronto Atendimento (PA)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-e-documentos-obrigatorios_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações e Documentos Obrigatórios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#classificacao-de-risco" class="md-nav__link">
+    <span class="md-ellipsis">
+      Classificação de Risco
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atendimento-medico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Atendimento Médico
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solicitacao-de-exames-e-procedimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Solicitação de Exames e Procedimentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#observacao-e-internacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Observação e Internação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transferencia-e-alta" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transferência e Alta
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#obito-e-encaminhamento-para-o-iml" class="md-nav__link">
+    <span class="md-ellipsis">
+      Óbito e Encaminhamento para o IML
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#revisao-e-check-list-final" class="md-nav__link">
+    <span class="md-ellipsis">
+      Revisão e Check-list Final
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autorizacao-de-internacao-hospitalar-aih" class="md-nav__link">
+    <span class="md-ellipsis">
+      Autorização de Internação Hospitalar (AIH)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Autorização de Internação Hospitalar (AIH)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-e-documentos-obrigatorios_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações e Documentos Obrigatórios
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ações e Documentos Obrigatórios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#internacao-por-transferencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Internação por Transferência
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#internacao-por-atendimento-no-pa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Internação por Atendimento no PA
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#internacao-eletiva" class="md-nav__link">
+    <span class="md-ellipsis">
+      Internação Eletiva
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unidade-de-internacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unidade de Internação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Unidade de Internação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-e-documentos-obrigatorios_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações e Documentos Obrigatórios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#admissao-do-paciente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Admissão do Paciente
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acompanhamento-diario-do-paciente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Acompanhamento Diário do Paciente
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solicitacao-de-exames-e-procedimentos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Solicitação de Exames e Procedimentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manejo-clinico-e-registro-de-procedimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Manejo Clínico e Registro de Procedimentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transferencia-e-alta_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transferência e Alta
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unidade-de-tratamento-intensivo-uti" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unidade de Tratamento Intensivo (UTI)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Unidade de Tratamento Intensivo (UTI)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-e-documentos-obrigatorios_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações e Documentos Obrigatórios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#admissao-do-paciente_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Admissão do Paciente
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acompanhamento-diario-do-paciente_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Acompanhamento Diário do Paciente
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solicitacao-de-exames-e-procedimentos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Solicitação de Exames e Procedimentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manejo-clinico-e-registro-de-procedimentos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Manejo Clínico e Registro de Procedimentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hemodialise-e-hemotransfusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hemodiálise e Hemotransfusão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transferencia-e-alta_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transferência e Alta
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#obito-e-encaminhamento-para-o-iml_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Óbito e Encaminhamento para o IML
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bloco-cirurgicobloco-obstetrico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bloco Cirúrgico/Bloco Obstétrico
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloco Cirúrgico/Bloco Obstétrico">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-e-documentos-obrigatorios_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações e Documentos Obrigatórios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preparacao-para-cirurgia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preparação para Cirurgia
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#execucao-da-cirurgia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Execução da Cirurgia
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hemotransfusao-se-necessaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hemotransfusão (se necessária)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monitoramento-pos-cirurgico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monitoramento Pós-Cirúrgico
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ortese-protese-e-materiais-especiais-opme" class="md-nav__link">
+    <span class="md-ellipsis">
+      Órtese, Prótese e Materiais Especiais (OPME)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registro-de-parto-se-aplicavel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Registro de Parto (se aplicável)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alta-e-revisao-de-prontuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alta e Revisão de Prontuário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#obito-e-encaminhamento-para-o-iml-se-necessario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Óbito e Encaminhamento para o IML (se necessário)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transferencia-do-paciente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transferência do Paciente
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Transferência do Paciente">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-e-documentos-obrigatorios_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações e Documentos Obrigatórios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autorizacao-da-transferencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Autorização da Transferência
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedimentos-para-transferencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procedimentos para Transferência
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hospital-dia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hospital-Dia
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hospital-Dia">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-e-documentos-obrigatorios_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações e Documentos Obrigatórios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avaliacao-e-acompanhamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avaliação e Acompanhamento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solicitacao-de-exames-e-procedimentos_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Solicitação de Exames e Procedimentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manejo-clinico-e-administracao-de-medicamentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Manejo Clínico e Administração de Medicamentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alta-e-transferencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alta e Transferência
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#servico-auxiliar-de-diagnostico-e-terapia-sadt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Serviço Auxiliar de Diagnóstico e Terapia (SADT)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Serviço Auxiliar de Diagnóstico e Terapia (SADT)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-e-documentos-obrigatorios_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações e Documentos Obrigatórios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recebimento-e-solicitacao-de-exames" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recebimento e Solicitação de Exames
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coleta-e-realizacao-de-exames" class="md-nav__link">
+    <span class="md-ellipsis">
+      Coleta e Realização de Exames
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disponibilizacao-de-resultados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disponibilização de Resultados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#encaminhamento-de-pacientes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encaminhamento de Pacientes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hemodialise-e-hemotransfusao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hemodiálise e Hemotransfusão
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hemodiálise e Hemotransfusão">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-e-documentos-obrigatorios_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações e Documentos Obrigatórios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preparacao-para-o-procedimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preparação para o Procedimento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#realizacao-da-hemodialise" class="md-nav__link">
+    <span class="md-ellipsis">
+      Realização da Hemodiálise
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#realizacao-da-hemotransfusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Realização da Hemotransfusão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monitoramento-e-evolucao-do-paciente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monitoramento e Evolução do Paciente
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fechamento-de-prontuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fechamento de Prontuário
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fechamento de Prontuário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-e-documentos-obrigatorios_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações e Documentos Obrigatórios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#revisao-do-prontuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Revisão do Prontuário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#encaminhamento-do-prontuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encaminhamento do Prontuário
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#encaminhamento-para-faturamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encaminhamento para Faturamento
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Encaminhamento para Faturamento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-e-documentos-obrigatorios_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações e Documentos Obrigatórios
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ações e Documentos Obrigatórios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#conferencia-inicial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conferência Inicial
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#processamento-do-faturamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Processamento do Faturamento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#revisao-e-ajuste-de-pendencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Revisão e Ajuste de Pendências
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  </nav>
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SIH_SUS/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SIH/SIA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topicos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tópicos Especiais
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../auditoria/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Auditoria
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../links/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Links úteis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="faturamento-no-sistema-de-gestao-hospitalar-sigh">Faturamento no Sistema de Gestão Hospitalar - SIGH</h1>
+<h2 id="cadastro-do-paciente-no-guiche">Cadastro do Paciente no Guichê</h2>
+<h3 id="introducao">Introdução</h3>
+<p>O guichê é responsável pelo primeiro contato do paciente com a unidade hospitalar, garantindo que todas as informações cadastrais estejam corretas para o faturamento adequado. Nesta etapa, são conferidos documentos pessoais e realizado o cadastro no sistema.</p>
+<h3 id="acoes-e-documentos-obrigatorios">Ações e Documentos Obrigatórios</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Verificar cadastro do paciente no SIGH</strong></td>
+<td>Carteira de Identidade (RG), CPF, Cartão Nacional de Saúde (CNS) ou número.</td>
+</tr>
+<tr>
+<td><strong>Acessar o CADWEB/SUS para conferência</strong></td>
+<td>Consulta e atualização de dados cadastrais no sistema CADWEB.</td>
+</tr>
+<tr>
+<td><strong>Verificar nome social (se aplicável)</strong></td>
+<td>Conferir legislação vigente (Portaria nº 1.820/2009).</td>
+</tr>
+<tr>
+<td><strong>Preencher no SIGH ausência de documento</strong></td>
+<td>Registrar a não apresentação de documento com foto, se aplicável.</td>
+</tr>
+<tr>
+<td><strong>Cadastrar paciente no CADWEB (se necessário)</strong></td>
+<td>Nome completo, data de nascimento, sexo, nome da mãe, naturalidade, endereço completo.</td>
+</tr>
+<tr>
+<td><strong>Cadastrar paciente no SIGH (se necessário)</strong></td>
+<td>RG, CPF, CNS e comprovante de residência.</td>
+</tr>
+<tr>
+<td><strong>Atualizar cadastro do paciente no SIGH</strong></td>
+<td>Sempre que houver mudança nos dados cadastrais.</td>
+</tr>
+<tr>
+<td><strong>Encaminhar paciente para atendimento</strong></td>
+<td>Ficha de atendimento com data e horário, etiqueta com dados cadastrais.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Atenção à identificação</p>
+<ul>
+<li>Pacientes <strong>não identificados</strong> devem seguir protocolo específico da <strong>Gerência de Faturamento e Contratualização</strong>.</li>
+<li>Todos os profissionais responsáveis pelo atendimento devem estar cadastrados no <strong>SIGH e CNES</strong>, possuindo <strong>CNS e CBO</strong>.</li>
+<li>Em caso de dúvidas, enviar e-mail para <a href="mailto:adc.faturamento@fhemig.mg.gov.br">adc.faturamento@fhemig.mg.gov.br</a> ou encaminhar processo via <strong>SEI</strong> para <strong>FHEMIG/DPAR/COORD.FATURAMENTO</strong>.</li>
+</ul>
+</div>
+<h2 id="ambulatorio-consulta-eletiva">Ambulatório - Consulta Eletiva</h2>
+<h3 id="introducao_1">Introdução</h3>
+<p>A consulta eletiva no ambulatório envolve atendimentos programados e necessita de registros detalhados para garantir a cobrança correta dos procedimentos. O prontuário deve conter todas as informações clínicas essenciais para o faturamento.</p>
+<h3 id="acoes-e-documentos-obrigatorios_1">Ações e Documentos Obrigatórios</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Solicitar ao demandante a APAC (se necessário)</strong></td>
+<td>Registro da <strong>Autorização de Procedimento de Alta Complexidade (APAC)</strong> no prontuário informatizado (SIGH) e físico.</td>
+</tr>
+<tr>
+<td><strong>Realizar atendimento ao paciente</strong></td>
+<td>Prontuário informatizado e físico com: anamnese/evolução, exames, hipóteses diagnósticas, tratamento, prescrição médica, curativos e procedimentos realizados.</td>
+</tr>
+<tr>
+<td><strong>Registrar data, hora, assinatura e carimbo</strong></td>
+<td>Todo atendimento deve conter identificação do profissional responsável.</td>
+</tr>
+<tr>
+<td><strong>Encaminhar paciente para outro setor/especialidade (se necessário)</strong></td>
+<td>Solicitação formal de encaminhamento dentro da unidade.</td>
+</tr>
+<tr>
+<td><strong>Revisar prontuário</strong></td>
+<td>Conferência conforme checklist de fechamento.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Registro no sistema e prontuário</p>
+<ul>
+<li>Todas as consultas devem ser registradas no <strong>SIGH e no prontuário físico</strong>.</li>
+<li>As <strong>consultas não reguladas devem ser exceção</strong> e precisam ser justificadas.</li>
+<li>Profissionais devem estar cadastrados no <strong>SIGH e CNES</strong> com <strong>CNS e CBO</strong>.</li>
+</ul>
+</div>
+<h2 id="check-list-de-fechamento-de-prontuario">Check-list de Fechamento de Prontuário</h2>
+<h3 id="identificacao-do-paciente">Identificação do Paciente</h3>
+<ul>
+<li><strong>Setor:</strong> <strong><em>_</em></strong><strong><em>_</em></strong>  </li>
+<li><strong>Andar:</strong> <strong><em>_</em></strong><strong><em>_</em></strong>  </li>
+<li><strong>Admissão:</strong> <strong><em>_/</em></strong>_/____  </li>
+<li><strong>Nome do Paciente:</strong> <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>  </li>
+<li><strong>Número do Prontuário:</strong> <strong><em>_</em></strong><strong><em>_</em></strong>____  </li>
+<li><strong>Data da Alta/Óbito:</strong> <strong><em>_/</em></strong>_/____  </li>
+<li><strong>Longa Permanência:</strong>  </li>
+<li>( ) Início da conta: <strong><em>_/</em></strong>_/____  </li>
+<li>( ) Final da conta: <strong><em>_/</em></strong>_/____  </li>
+</ul>
+<h3 id="documentos-obrigatorios">Documentos Obrigatórios</h3>
+<p>✅ <strong>Documentação Geral</strong><br />
+- [ ] Capa<br />
+- [ ] Folha de Rosto SIGH<br />
+- [ ] Evolução Médica (1ª admissão/anamnese + evoluções diárias)<br />
+- [ ] Prescrição Médica Diária<br />
+- [ ] Registros de Enfermagem Diária<br />
+- [ ] Evoluções do Técnico de Enfermagem<br />
+- [ ] Dados Vitais/Balanço Hídrico<br />
+- [ ] Sumário de Alta<br />
+- [ ] AIH/SUSFácil  </p>
+<p>✅ <strong>Documentação de Especialidades</strong><br />
+- [ ] Fisioterapia<br />
+- [ ] Fonoaudiologia<br />
+- [ ] Nutrição (ENUPE)<br />
+- [ ] Psicologia<br />
+- [ ] Serviço Social<br />
+- [ ] Terapia Ocupacional  </p>
+<p>✅ <strong>Resultados de Exames Especiais</strong><br />
+- [ ] Tomografia Computadorizada (TC)<br />
+- [ ] Ressonância Magnética (RNM)<br />
+- [ ] Doppler<br />
+- [ ] Outros: <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>__  </p>
+<p>✅ <strong>Exames e Procedimentos</strong><br />
+- [ ] Exames Laboratoriais<br />
+- [ ] Laudo Médico de Alto Custo<br />
+- [ ] Descrição Cirúrgica<br />
+- [ ] Lista de Verificação de Segurança Cirúrgica<br />
+- [ ] Descrição/Embalagem/Nota Fiscal de OPME<br />
+- [ ] Folha de Anestesia<br />
+- [ ] Registro de Hemodiálise<br />
+- [ ] Registro de Hemotransfusão  </p>
+<p>✅ <strong>Documentação Obstétrica (se aplicável)</strong><br />
+- [ ] Partograma<br />
+- [ ] Autorização e Notificação de STB<br />
+- [ ] Ficha de Atendimento ao RN<br />
+- [ ] Admissão em Sala de Parto do RN<br />
+- [ ] 1ª Consulta do RN<br />
+- [ ] Declaração de Nascido Vivo  </p>
+<h3 id="procedimentos-finais">Procedimentos Finais</h3>
+<ul>
+<li>( ) <strong>Conferir se todos os documentos foram preenchidos corretamente.</strong>  </li>
+<li>( ) <strong>Verificar se há necessidade de revisão pela Comissão de Prontuário ou de Óbito.</strong>  </li>
+<li>( ) <strong>Encaminhar prontuário completo ao Serviço de Arquivamento Médico e Estatístico (SAME).</strong>  </li>
+<li>( ) <strong>Enviar para o setor de faturamento com todas as assinaturas e carimbos necessários.</strong>  </li>
+</ul>
+<hr />
+<div class="admonition warning">
+<p class="admonition-title">Informações obrigatórias</p>
+<ul>
+<li>Todos os documentos devem conter <strong>DATA, HORA, ASSINATURA e CARIMBO</strong> dos profissionais responsáveis.  </li>
+<li>Caso faltem documentos, o prontuário deve ser <strong>devolvido à unidade de origem</strong> para regularização antes do envio ao SAME.  </li>
+<li>No caso de procedimentos especiais, anexar <strong>descrição detalhada e justificativas</strong>.</li>
+</ul>
+</div>
+<hr />
+<h2 id="pronto-atendimento-pa">Pronto Atendimento (PA)</h2>
+<h3 id="introducao_2">Introdução</h3>
+<p>O <strong>Pronto Atendimento (PA)</strong> é responsável por atendimentos de urgência e emergência, seguindo protocolos específicos para garantir o correto registro das informações. A documentação precisa ser preenchida no <strong>SIGH e no prontuário físico</strong>, assegurando o correto faturamento e rastreamento do atendimento prestado.</p>
+<hr />
+<h3 id="acoes-e-documentos-obrigatorios_2">Ações e Documentos Obrigatórios</h3>
+<h3 id="classificacao-de-risco">Classificação de Risco</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificar risco e reavaliar paciente</strong></td>
+<td>Nome do paciente, sinais vitais, prioridade clínica conforme <strong>Classificação de Manchester</strong> e necessidade de notificação compulsória. Deve conter <strong>DATA, HORA DE INÍCIO E FINALIZAÇÃO, ASSINATURA e CARIMBO</strong> do profissional responsável.</td>
+</tr>
+<tr>
+<td><strong>Registrar no prontuário (SIGH e físico)</strong></td>
+<td>Todos os dados da triagem devem ser corretamente preenchidos.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="atendimento-medico">Atendimento Médico</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Realizar atendimento médico</strong></td>
+<td>Anamnese, exames, hipóteses diagnósticas, prescrição médica, evolução clínica, registros de intercorrências e notificações compulsórias (se aplicável). Deve conter <strong>DATA, HORA DE INÍCIO E FIM DO ATENDIMENTO, ASSINATURA e CARIMBO</strong> do médico responsável.</td>
+</tr>
+<tr>
+<td><strong>Registrar no prontuário (SIGH e físico)</strong></td>
+<td>Todos os procedimentos devem ser documentados corretamente.</td>
+</tr>
+<tr>
+<td><strong>Fornecimento de refeições (se aplicável)</strong></td>
+<td>Deve haver registro no prontuário pelo responsável.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="solicitacao-de-exames-e-procedimentos">Solicitação de Exames e Procedimentos</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Solicitar exames no SIGH</strong></td>
+<td>Registro das intercorrências, materiais utilizados, prescrição médica e administração de medicamentos. Exames terceirizados devem ser <strong>impressos e anexados ao prontuário</strong>.</td>
+</tr>
+<tr>
+<td><strong>Encaminhar paciente ao Serviço Auxiliar de Diagnóstico e Terapia (SADT)</strong></td>
+<td>Laudos obrigatórios devem ser anexados ao prontuário.</td>
+</tr>
+<tr>
+<td><strong>Registrar administração de medicamentos</strong></td>
+<td>Prescrição médica detalhada (posologia, quantidade e horário), registro da administração e recusa (se aplicável). Deve conter <strong>DATA, HORA, ASSINATURA e CARIMBO</strong> dos profissionais envolvidos.</td>
+</tr>
+<tr>
+<td><strong>Registrar realização de procedimentos</strong></td>
+<td>Pedido médico, materiais utilizados e justificativa do procedimento. Deve conter <strong>DATA, HORA, ASSINATURA e CARIMBO</strong> dos profissionais responsáveis.</td>
+</tr>
+<tr>
+<td><strong>Registrar realização de curativos</strong></td>
+<td>Registro detalhado do tipo de curativo, materiais utilizados, prescrição e evolução clínica. Deve conter <strong>DATA, HORA, ASSINATURA e CARIMBO</strong> dos profissionais envolvidos.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="observacao-e-internacao">Observação e Internação</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Revisar prontuário caso não haja melhora</strong></td>
+<td>Seguir o <strong>Check-list de fechamento de prontuário</strong>.</td>
+</tr>
+<tr>
+<td><strong>Reavaliar paciente</strong></td>
+<td>Deve conter <strong>DATA, HORA, ASSINATURA e CARIMBO</strong> dos profissionais envolvidos.</td>
+</tr>
+<tr>
+<td><strong>Manter paciente em observação (se necessário)</strong></td>
+<td>Registro detalhado do estado clínico, tempo de permanência e procedimentos realizados. Se a permanência for superior a <strong>24 horas</strong>, emitir <strong>Laudo para Solicitação de Internação Hospitalar (AIH)</strong>.</td>
+</tr>
+<tr>
+<td><strong>Solicitar internação hospitalar</strong></td>
+<td>Registro da mudança no <strong>Centro de Custos</strong>, AIH e solicitação via <strong>SUSFácilMG</strong>.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="transferencia-e-alta">Transferência e Alta</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Solicitar transferência do paciente</strong></td>
+<td>AIH, Sumário de Alta e Laudo de Transferência do SUSFácilMG.</td>
+</tr>
+<tr>
+<td><strong>Permitir alta ambulatorial</strong></td>
+<td><strong>Sumário de Alta</strong>, cópia entregue ao paciente e, se aplicável, <strong>APAC</strong>. Deve conter <strong>DATA, HORA, ASSINATURA e CARIMBO</strong> do médico responsável.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="obito-e-encaminhamento-para-o-iml">Óbito e Encaminhamento para o IML</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Solicitar e preencher Declaração de Óbito (se necessário)</strong></td>
+<td><strong>Via rosa da Declaração de Óbito (DO)</strong> e Ficha de Encaminhamento para o <strong>IML</strong> (para mortes violentas ou indeterminadas). Não são permitidas <strong>rasuras</strong>.</td>
+</tr>
+<tr>
+<td><strong>Encaminhar para IML ou captação de órgãos</strong></td>
+<td>Documentação preenchida pelo médico responsável.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="revisao-e-check-list-final">Revisão e Check-list Final</h2>
+<p>Antes do encaminhamento ao SAME, o prontuário deve ser revisado conforme:
+- <strong>Tabela-Resumo de Documentos por Etapa para Faturamento FHEMIG</strong>.
+- <strong>Check-list de Fechamento de Prontuário</strong>.</p>
+<hr />
+<div class="admonition warnings">
+<p class="admonition-title">Atenção</p>
+<p>✔ Todos os profissionais devem estar cadastrados no <strong>SIGH e CNES</strong>, com <strong>CNS e CBO</strong>.<br />
+✔ O prontuário deve conter <strong>assinatura e carimbo</strong> do profissional responsável.<br />
+✔ Medicamentos, curativos e materiais utilizados devem ser registrados corretamente para evitar <strong>glosas</strong>.  </p>
+</div>
+<hr />
+<h2 id="autorizacao-de-internacao-hospitalar-aih">Autorização de Internação Hospitalar (AIH)</h2>
+<h3 id="introducao_3">Introdução</h3>
+<p>A <strong>Autorização de Internação Hospitalar (AIH)</strong> é um documento essencial para o faturamento dos atendimentos hospitalares, devendo ser corretamente preenchida, assinada e registrada no <strong>SIGH</strong>. Este processo envolve <strong>transferências, internações eletivas e de urgência</strong>, exigindo a conferência de laudos e documentação antes da aprovação.</p>
+<hr />
+<h2 id="acoes-e-documentos-obrigatorios_3">Ações e Documentos Obrigatórios</h2>
+<h3 id="internacao-por-transferencia"><strong>Internação por Transferência</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Conferir laudo de internação no SUSFácilMG</strong></td>
+<td>Anexar ao prontuário: <strong>Laudo de Solicitação de AIH</strong>, via impressa da solicitação de internação no SUSFácilMG ou registro do número no <strong>SIGH</strong>, relatório de transferência e exames realizados na unidade de origem (se houver).</td>
+</tr>
+<tr>
+<td><strong>Confirmar disponibilidade de leito</strong></td>
+<td>Não se aplica.</td>
+</tr>
+<tr>
+<td><strong>Confirmar chegada do paciente no SUSFácilMG</strong></td>
+<td>Registro obrigatório no sistema.</td>
+</tr>
+<tr>
+<td><strong>Encaminhar paciente para Unidade de Internação ou UTI</strong></td>
+<td>Anexar cópia do <strong>Laudo para Solicitação de AIH</strong> ao setor de faturamento.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="internacao-por-atendimento-no-pa"><strong>Internação por Atendimento no PA</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Preencher Laudo para Solicitação de AIH</strong></td>
+<td>Documento deve conter <strong>identificação do paciente, anamnese, evolução, exames, justificativa para internação, hipótese diagnóstica e condutas</strong>. Deve ser preenchido em <strong>DUAS VIAS</strong>, sem abreviaturas, assinado e carimbado pelo médico solicitante.</td>
+</tr>
+<tr>
+<td><strong>Cadastrar paciente no SUSFácilMG</strong></td>
+<td>Cadastro obrigatório para geração da autorização.</td>
+</tr>
+<tr>
+<td><strong>Solicitar internação no SUSFácilMG pela Unidade</strong></td>
+<td>Solicitação formal da unidade.</td>
+</tr>
+<tr>
+<td><strong>Aguardar autorização da Central de Regulação</strong></td>
+<td>Monitoramento da autorização.</td>
+</tr>
+<tr>
+<td><strong>Verificar e regularizar pendências no laudo (se necessário)</strong></td>
+<td>Ajustes devem ser feitos conforme informações do prontuário ou relatadas pelo médico.</td>
+</tr>
+<tr>
+<td><strong>Encaminhar paciente para Unidade de Internação, Bloco Cirúrgico ou UTI</strong></td>
+<td>Cópia da <strong>AIH</strong> anexada ao prontuário.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="internacao-eletiva"><strong>Internação Eletiva</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Conferir Laudo de Solicitação de AIH no SUSFácilMG</strong></td>
+<td>Anexar ao prontuário: <strong>Laudo de Autorização de Internação Hospitalar (AIH), via impressa da autorização e avaliação pré-cirúrgica</strong>.</td>
+</tr>
+<tr>
+<td><strong>Confirmar disponibilidade de leito (se necessário)</strong></td>
+<td>Apenas se houver necessidade.</td>
+</tr>
+<tr>
+<td><strong>Confirmar chegada do paciente no SUSFácilMG</strong></td>
+<td>Registro obrigatório.</td>
+</tr>
+<tr>
+<td><strong>Encaminhar paciente para Hospital-Dia, Bloco Cirúrgico, Bloco Obstétrico ou Unidade de Internação</strong></td>
+<td>Encaminhamento oficial da unidade.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div class="admonition note">
+<p class="admonition-title">Atenção</p>
+<p>✔ Todos os profissionais devem estar cadastrados no <strong>SIGH e CNES</strong>, com <strong>CNS e CBO</strong>.<br />
+✔ O prontuário deve conter <strong>assinatura e carimbo</strong> do profissional responsável.<br />
+✔ A <strong>AIH deve estar anexada</strong> ao prontuário para validação da internação.  </p>
+</div>
+<hr />
+<h2 id="unidade-de-internacao">Unidade de Internação</h2>
+<h3 id="introducao_4">Introdução</h3>
+<p>A <strong>Unidade de Internação</strong> é o setor responsável pelo acolhimento e acompanhamento de pacientes que necessitam de permanência hospitalar prolongada. O correto preenchimento dos prontuários e a documentação das evoluções diárias são essenciais para a garantia da segurança do paciente e o faturamento adequado.</p>
+<div class="admonition warnings">
+<p class="admonition-title">Registro</p>
+<p>Todos os registros devem ser realizados no <strong>SIGH e no prontuário físico</strong>.</p>
+</div>
+<hr />
+<h3 id="acoes-e-documentos-obrigatorios_4">Ações e Documentos Obrigatórios</h3>
+<h3 id="admissao-do-paciente"><strong>Admissão do Paciente</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Receber e checar o prontuário</strong></td>
+<td>Verificação inicial do prontuário ao dar entrada no setor.</td>
+</tr>
+<tr>
+<td><strong>Solicitar regularização ao setor de origem (caso o prontuário esteja incompleto)</strong></td>
+<td>Atualização dos dados e documentos faltantes antes da admissão.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="acompanhamento-diario-do-paciente"><strong>Acompanhamento Diário do Paciente</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Avaliar diariamente o paciente</strong></td>
+<td>Registro obrigatório no prontuário e SIGH contendo: <br> a) Hipótese diagnóstica <br> b) Tratamento <br> c) Evolução clínica <br> d) Prescrição médica <br> e) Registros de evolução diária <br> f) Notificação compulsória de doenças (se aplicável) <br> g) Exames solicitados <br> h) Laudos de exames realizados</td>
+</tr>
+<tr>
+<td><strong>Registrar diariamente no prontuário (SIGH e físico)</strong></td>
+<td>Registro contínuo das informações assistenciais e administrativas.</td>
+</tr>
+<tr>
+<td><strong>Registrar diárias de acompanhante (se aplicável)</strong></td>
+<td>Documento comprobatório com assinatura do responsável e do acompanhante. O registro pode ser feito pela equipe de enfermagem ou técnicos do Serviço de Nutrição e Dietética (SND).</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="solicitacao-de-exames-e-procedimentos_1"><strong>Solicitação de Exames e Procedimentos</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Solicitar exame no SIGH (caso necessário)</strong></td>
+<td>Registro obrigatório contendo: <br> a) Intercorrências <br> b) Materiais utilizados <br> c) Procedimentos realizados <br> d) Prescrições, dispensações e administrações de medicamentos <br> e) No caso de exames in loco, verificar quais resultados/laudos são obrigatórios no prontuário físico para fins de faturamento <br> f) No caso de exames terceirizados, os resultados/laudos devem ser <strong>impressos e anexados ao prontuário físico</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="manejo-clinico-e-registro-de-procedimentos"><strong>Manejo Clínico e Registro de Procedimentos</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Administrar medicamentos (se necessário)</strong></td>
+<td><strong>Prescrição médica obrigatória</strong> com posologia, quantidade e horário de administração. O registro deve conter: <br> a) Quantidade dispensada <br> b) Data e hora de administração ou recusa do paciente</td>
+</tr>
+<tr>
+<td><strong>Realizar procedimentos médicos/enfermagem (se necessário)</strong></td>
+<td>Registro obrigatório contendo: <br> a) Pedido médico ou indicação pela equipe multidisciplinar <br> b) Lista de materiais utilizados com quantidades <br> c) Quantidade de procedimentos realizados (inclusive invasivos)</td>
+</tr>
+<tr>
+<td><strong>Realizar curativos (se necessário)</strong></td>
+<td>Registro obrigatório contendo: <br> a) Tipo de curativo <br> b) Uso ou não de cobertura <br> c) Quantidade utilizada <br> d) Local da lesão e evolução clínica <br> e) Prescrição de coberturas e materiais médicos</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="transferencia-e-alta_1"><strong>Transferência e Alta</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Solicitar transferência do paciente (se necessário)</strong></td>
+<td>Registro da mudança no <strong>Centro de Custos</strong>, AIH e Laudo de Transferência do <strong>SUSFácilMG</strong>.</td>
+</tr>
+<tr>
+<td><strong>Permitir alta hospitalar</strong></td>
+<td><strong>Sumário de Alta</strong> com data, hora, assinatura e carimbo do médico responsável.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div class="admonition note">
+<p class="admonition-title">Revisão final</p>
+<p>Antes do encaminhamento ao SAME, o prontuário deve ser revisado conforme:
+- <strong>Tabela-Resumo de Documentos por Etapa para Faturamento FHEMIG</strong>.
+- <strong>Check-list de Fechamento de Prontuário</strong>.</p>
+</div>
+<div class="admonition warnings">
+<p class="admonition-title">Atenção</p>
+<p>✔ Todos os profissionais devem estar cadastrados no <strong>SIGH e CNES</strong>, com <strong>CNS e CBO</strong>.<br />
+✔ O prontuário deve conter <strong>assinatura e carimbo</strong> do profissional responsável.<br />
+✔ Medicamentos, curativos e materiais utilizados devem ser registrados corretamente para evitar <strong>glosas</strong>.  </p>
+</div>
+<hr />
+<h2 id="unidade-de-tratamento-intensivo-uti">Unidade de Tratamento Intensivo (UTI)</h2>
+<h3 id="introducao_5">Introdução</h3>
+<p>A <strong>Unidade de Tratamento Intensivo (UTI)</strong> é destinada a pacientes críticos que necessitam de monitoramento constante e suporte avançado. A documentação completa e correta é essencial para garantir a rastreabilidade das ações médicas e o faturamento adequado.</p>
+<div class="admonition warning">
+<p class="admonition-title">Cadastro no sistema</p>
+<p>Todos os registros devem ser <strong>realizados no SIGH e no prontuário físico</strong>.</p>
+</div>
+<hr />
+<h3 id="acoes-e-documentos-obrigatorios_5">Ações e Documentos Obrigatórios</h3>
+<h3 id="admissao-do-paciente_1"><strong>Admissão do Paciente</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Receber e checar o prontuário</strong></td>
+<td>Verificação inicial do prontuário ao dar entrada no setor.</td>
+</tr>
+<tr>
+<td><strong>Solicitar regularização ao setor de origem (caso o prontuário esteja incompleto)</strong></td>
+<td>Atualização dos dados e documentos faltantes antes da admissão.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="acompanhamento-diario-do-paciente_1"><strong>Acompanhamento Diário do Paciente</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Avaliar diariamente o paciente (duas vezes ao dia, plantão diurno e noturno)</strong></td>
+<td>Registro obrigatório no prontuário e SIGH contendo: <br> a) Hipótese diagnóstica <br> b) Tratamento <br> c) Evolução clínica <br> d) Prescrição médica <br> e) Registros de evolução diária <br> f) Notificação compulsória de doenças (se aplicável) <br> g) Exames solicitados <br> h) Laudos de exames realizados <br> i) Prescrição de coberturas para curativos <br> j) Prescrição de materiais médicos para procedimentos</td>
+</tr>
+<tr>
+<td><strong>Registrar diariamente no prontuário (SIGH e físico)</strong></td>
+<td>Registro contínuo das informações assistenciais e administrativas.</td>
+</tr>
+<tr>
+<td><strong>Registrar diárias de acompanhante (se aplicável)</strong></td>
+<td>Documento comprobatório com assinatura do responsável e do acompanhante. Deve ser feito pela equipe de enfermagem ou técnicos do Serviço de Nutrição e Dietética (SND).</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="solicitacao-de-exames-e-procedimentos_2"><strong>Solicitação de Exames e Procedimentos</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Solicitar exame no SIGH (caso necessário)</strong></td>
+<td>Registro obrigatório contendo: <br> a) Intercorrências <br> b) Materiais utilizados <br> c) Procedimentos realizados <br> d) Prescrições, dispensações e administrações de medicamentos <br> e) No caso de exames in loco, verificar quais resultados/laudos são obrigatórios no prontuário físico para fins de faturamento <br> f) No caso de exames terceirizados, os resultados/laudos devem ser <strong>impressos e anexados ao prontuário físico</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="manejo-clinico-e-registro-de-procedimentos_1"><strong>Manejo Clínico e Registro de Procedimentos</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Administrar medicamentos (se necessário)</strong></td>
+<td><strong>Prescrição médica obrigatória</strong> com posologia, quantidade e horário de administração. O registro deve conter: <br> a) Quantidade dispensada <br> b) Data e hora de administração ou recusa do paciente</td>
+</tr>
+<tr>
+<td><strong>Realizar procedimentos médicos/enfermagem (se necessário)</strong></td>
+<td>Registro obrigatório contendo: <br> a) Pedido médico ou indicação pela equipe multidisciplinar <br> b) Lista de materiais utilizados com quantidades <br> c) Quantidade de procedimentos realizados (inclusive invasivos)</td>
+</tr>
+<tr>
+<td><strong>Realizar curativos (se necessário)</strong></td>
+<td>Registro obrigatório contendo: <br> a) Tipo de curativo <br> b) Uso ou não de cobertura <br> c) Quantidade utilizada <br> d) Local da lesão e evolução clínica <br> e) Prescrição de coberturas e materiais médicos</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="hemodialise-e-hemotransfusao"><strong>Hemodiálise e Hemotransfusão</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Registrar no prontuário hemodiálise ou hemotransfusão (se necessário)</strong></td>
+<td>Registro obrigatório contendo: <br> a) Prescrição do procedimento <br> b) Registro da dupla checagem do cartão da bolsa de hemocomponente <br> c) Registro de intercorrências (se houver) <br> d) Dados do profissional responsável pelo procedimento</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="transferencia-e-alta_2"><strong>Transferência e Alta</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Solicitar transferência do paciente (se necessário)</strong></td>
+<td>Registro da mudança no <strong>Centro de Custos</strong>, AIH e Laudo de Transferência do <strong>SUSFácilMG</strong>.</td>
+</tr>
+<tr>
+<td><strong>Encaminhar paciente para Unidade de Internação (caso haja melhora)</strong></td>
+<td>Registro da evolução clínica e justificativa da transferência.</td>
+</tr>
+<tr>
+<td><strong>Permitir alta hospitalar</strong></td>
+<td><strong>Sumário de Alta</strong> com data, hora, assinatura e carimbo do médico responsável.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="obito-e-encaminhamento-para-o-iml_1"><strong>Óbito e Encaminhamento para o IML</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Solicitar e preencher Declaração de Óbito (se necessário)</strong></td>
+<td><strong>Via rosa da Declaração de Óbito (DO)</strong> e Ficha de Encaminhamento para o <strong>IML</strong> (para mortes violentas ou indeterminadas). Não são permitidas <strong>rasuras</strong>.</td>
+</tr>
+<tr>
+<td><strong>Encaminhar para IML ou captação de órgãos</strong></td>
+<td>Documentação preenchida pelo médico responsável.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div class="admonition note">
+<p class="admonition-title">Revisão e Check-list Final</p>
+<p>Antes do encaminhamento ao SAME, o prontuário deve ser revisado conforme:
+- <strong>Tabela-Resumo de Documentos por Etapa para Faturamento FHEMIG</strong>.
+- <strong>Check-list de Fechamento de Prontuário</strong>.</p>
+</div>
+<hr />
+<div class="admonition note">
+<p class="admonition-title">Observações Gerais</p>
+<p>✔ Todos os profissionais devem estar cadastrados no <strong>SIGH e CNES</strong>, com <strong>CNS e CBO</strong>.<br />
+✔ O prontuário deve conter <strong>assinatura e carimbo</strong> do profissional responsável.<br />
+✔ Medicamentos, curativos e materiais utilizados devem ser registrados corretamente para evitar <strong>glosas</strong>.  </p>
+</div>
+<hr />
+<h2 id="bloco-cirurgicobloco-obstetrico">Bloco Cirúrgico/Bloco Obstétrico</h2>
+<h3 id="introducao_6">Introdução</h3>
+<p>O <strong>Bloco Cirúrgico</strong> e o <strong>Bloco Obstétrico</strong> são áreas críticas dentro do hospital, onde são realizados procedimentos cirúrgicos e obstétricos. O correto preenchimento dos registros clínicos e administrativos é fundamental para garantir a segurança do paciente e a adequada cobrança dos serviços prestados.</p>
+<div class="admonition warnings">
+<p class="admonition-title">Registro</p>
+<p>Todos os registros devem ser <strong>realizados no SIGH e no prontuário físico</strong>.</p>
+</div>
+<hr />
+<h3 id="acoes-e-documentos-obrigatorios_6">Ações e Documentos Obrigatórios</h3>
+<h3 id="preparacao-para-cirurgia"><strong>Preparação para Cirurgia</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Conferir material necessário para o procedimento</strong></td>
+<td>Não se aplica.</td>
+</tr>
+<tr>
+<td><strong>Iniciar o preenchimento da Folha de Descrição Cirúrgica</strong></td>
+<td>É obrigatório anexar ao prontuário/registrar no SIGH:<br> a) Folha de descrição cirúrgica (preenchida completamente);<br> b) Formulário de cirurgia segura (preenchido completamente);<br> c) AIH Cirúrgica;<br> d) Avaliação pré-anestésica;<br> e) Registro da anestesia aplicada.<br> Deve conter <strong>DATA, HORA, ASSINATURA e CARIMBO</strong> dos profissionais envolvidos.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="execucao-da-cirurgia"><strong>Execução da Cirurgia</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Receber o paciente e conferir prontuário</strong></td>
+<td>Garantir que todos os documentos obrigatórios estejam anexados.</td>
+</tr>
+<tr>
+<td><strong>Iniciar e finalizar o procedimento</strong></td>
+<td>Registro detalhado no SIGH e prontuário físico.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="hemotransfusao-se-necessaria"><strong>Hemotransfusão (se necessária)</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Solicitar hemotransfusão no SIGH</strong></td>
+<td>É obrigatório anexar ao prontuário:<br> a) Formulário da hemotransfusão com <strong>horário de início e fim</strong>;<br> b) Formulário de Intercorrência Transfusional (FIT);<br> c) Número da bolsa e tipo de hemocomponente;<br> d) Registro dos sinais vitais do paciente;<br> e) Resultado de tipagem;<br> f) Evolução médica durante o procedimento.<br> Deve conter <strong>DATA, HORA, ASSINATURA e CARIMBO</strong> dos profissionais responsáveis.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="monitoramento-pos-cirurgico"><strong>Monitoramento Pós-Cirúrgico</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Monitorar o paciente no pós-operatório</strong></td>
+<td>Registro de:<br> a) Prescrição e administração de medicamentos;<br> b) Procedimentos realizados (descrição cirúrgica e código SIGTAP);<br> c) Todos os materiais utilizados e quantidades;<br> d) Lançamento de punções, drenagens e biópsias.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="ortese-protese-e-materiais-especiais-opme"><strong>Órtese, Prótese e Materiais Especiais (OPME)</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Registrar OPME utilizada (se aplicável)</strong></td>
+<td>a) Formulário de requisição;<br> b) Nota fiscal com número do lote/série (identificação manual do nome do paciente em cada nota);<br> c) Embalagem/etiqueta;<br> d) Raio-X do paciente (caso necessário);<br> e) Comunicação de Material Utilizado (CMU) – sem rasuras, com nome do procedimento conforme SIGTAP e assinatura de um cirurgião da equipe.<br> Verificar <strong>compatibilidade entre procedimento principal e OPME</strong> e respeitar as quantidades máximas do SIGTAP.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warnings">
+<p class="admonition-title">OPME's não padronizadas</p>
+<p>A Fhemig está em processo de elaboração de diretrizes para o faturamento de OPME's não padronizadas. Atualmente, a unidade deve procurar a Diretoria Assistencial para receber orientações do processo.</p>
+</div>
+<hr />
+<h3 id="registro-de-parto-se-aplicavel"><strong>Registro de Parto (se aplicável)</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Registrar parto no prontuário</strong></td>
+<td>a) Partograma;<br> b) Registro de recém-nascido no prontuário materno, contendo:<br> - Declaração de nascido vivo;<br> - Data de emissão da certidão;<br> - Teste do pezinho (original ou cópia), horário e identificação do profissional que realizou;<br> c) Ficha de notificação de esterilização (para Laqueadura Tubária, Parto Cesariano com Laqueadura Tubária e Vasectomia).</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="alta-e-revisao-de-prontuario"><strong>Alta e Revisão de Prontuário</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Revisar prontuário antes da alta</strong></td>
+<td>Conferência conforme:<br> a) <strong>Tabela-Resumo de Documentos por Etapa para Faturamento FHEMIG</strong>;<br> b) <strong>Check-list de fechamento de prontuário</strong>.</td>
+</tr>
+<tr>
+<td><strong>Registrar sumário de alta no prontuário e no SIGH</strong></td>
+<td>a) <strong>Sumário de Alta</strong> – com data, hora da saída hospitalar, assinatura e carimbo do responsável pela alta.<br> Deve conter <strong>DATA, HORA, ASSINATURA, CNS e CBO do médico responsável</strong>.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="obito-e-encaminhamento-para-o-iml-se-necessario"><strong>Óbito e Encaminhamento para o IML (se necessário)</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Solicitar e preencher Declaração de Óbito (se necessário)</strong></td>
+<td>É obrigatório anexar ao prontuário/registrar no SIGH:<br> a) <strong>Via rosa da Declaração de Óbito (DO)</strong>;<br> b) Ficha de encaminhamento para o <strong>Instituto Médico Legal (IML)</strong> (para mortes violentas ou indeterminadas).<br> <strong>Não são permitidas rasuras.</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div class="admonition warnings">
+<p class="admonition-title">Revisão e Check-list Final</p>
+<p>Antes do encaminhamento ao SAME, o prontuário deve ser revisado conforme:
+- <strong>Tabela-Resumo de Documentos por Etapa para Faturamento FHEMIG</strong>.
+- <strong>Check-list de Fechamento de Prontuário</strong>.</p>
+</div>
+<hr />
+<div class="admonition note">
+<p class="admonition-title">Observações Gerais</p>
+<p>✔ Todos os profissionais devem estar cadastrados no <strong>SIGH e CNES</strong>, com <strong>CNS e CBO</strong>.<br />
+✔ O prontuário deve conter <strong>assinatura e carimbo</strong> do profissional responsável.<br />
+✔ Materiais, medicamentos e procedimentos realizados devem ser <strong>corretamente documentados</strong> para evitar <strong>glosas</strong>.  </p>
+</div>
+<hr />
+<h2 id="transferencia-do-paciente">Transferência do Paciente</h2>
+<h3 id="introducao_7">Introdução</h3>
+<p>A <strong>transferência de pacientes</strong> pode ocorrer dentro da mesma unidade hospitalar (intra-hospitalar) ou entre unidades distintas (inter-hospitalar). O correto registro dessas movimentações é essencial para a continuidade do cuidado e o faturamento adequado.</p>
+<div class="admonition warnings">
+<p class="admonition-title">Registro</p>
+<p>Todos os registros devem ser <strong>realizados no SIGH e no prontuário físico</strong>.</p>
+</div>
+<hr />
+<h3 id="acoes-e-documentos-obrigatorios_7">Ações e Documentos Obrigatórios</h3>
+<h3 id="autorizacao-da-transferencia"><strong>Autorização da Transferência</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Preencher o Laudo de Autorização de Internação Hospitalar (AIH)</strong></td>
+<td>O documento deve conter: <br> a) Identificação do paciente <br> b) Anamnese <br> c) Resultados de exames físicos e complementares <br> d) Descrição das condições que justificam a transferência <br> e) Hipótese diagnóstica (o código do procedimento deve ser compatível com o CID). <br> Deve ser preenchido pelo <strong>médico, cirurgião-dentista ou enfermeiro obstetra solicitante</strong> em <strong>duas vias</strong>, de forma legível e sem abreviaturas.</td>
+</tr>
+<tr>
+<td><strong>Cadastrar paciente no SUSFácilMG</strong></td>
+<td>Cadastro obrigatório.</td>
+</tr>
+<tr>
+<td><strong>Solicitar transferência no SUSFácilMG</strong></td>
+<td>Solicitação formalizada no sistema.</td>
+</tr>
+<tr>
+<td><strong>Aguardar autorização da transferência pela Central de Regulação</strong></td>
+<td>Monitoramento da autorização.</td>
+</tr>
+<tr>
+<td><strong>Verificar pendências no laudo (se necessário)</strong></td>
+<td>Ajustes devem ser feitos conforme as exigências do SUSFácilMG.</td>
+</tr>
+<tr>
+<td><strong>Regularizar pendências no SUSFácilMG</strong></td>
+<td>Atualização e correção de informações conforme a necessidade.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="procedimentos-para-transferencia"><strong>Procedimentos para Transferência</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Preencher Sumário de Alta</strong></td>
+<td>Deve ser anexado ao prontuário e registrado no <strong>SIGH</strong>. Deve conter: <br> a) Data e hora da saída hospitalar <br> b) Assinatura e carimbo do responsável pela alta <br> c) Laudo de Transferência do SUSFácilMG <br> Devem ser geradas <strong>duas vias</strong>: uma fica no prontuário da unidade de origem e a outra deve ser enviada para a unidade de destino.</td>
+</tr>
+<tr>
+<td><strong>Dar alta no paciente no SIGH e no prontuário físico</strong></td>
+<td>Confirmação de saída do paciente.</td>
+</tr>
+<tr>
+<td><strong>Confirmar saída do paciente no SUSFácilMG</strong></td>
+<td>Atualização no sistema.</td>
+</tr>
+<tr>
+<td><strong>Inserir documentos necessários no prontuário</strong></td>
+<td>Organização completa da documentação do paciente.</td>
+</tr>
+<tr>
+<td><strong>Registrar procedimentos, medicamentos e insumos utilizados (caso necessário transporte do paciente)</strong></td>
+<td>É obrigatório anexar ao prontuário/registrar no <strong>SIGH</strong>: <br> a) Procedimentos realizados <br> b) Medicamentos administrados <br> c) Insumos utilizados <br> <strong>Deve conter DATA, HORA, ASSINATURA e CARIMBO do profissional responsável</strong>.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div class="admonition warnings">
+<p class="admonition-title">Revisão e Check-list Final</p>
+<p>Antes do encaminhamento ao SAME, o prontuário deve ser revisado conforme:
+- <strong>Tabela-Resumo de Documentos por Etapa para Faturamento FHEMIG</strong>.
+- <strong>Check-list de Fechamento de Prontuário</strong>.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Observações Gerais</p>
+<p>✔ Todos os profissionais devem estar cadastrados no <strong>SIGH e CNES</strong>, com <strong>CNS e CBO</strong>.<br />
+✔ O prontuário deve conter <strong>assinatura e carimbo</strong> do profissional responsável.<br />
+✔ Medicamentos, curativos e materiais utilizados devem ser registrados corretamente para evitar <strong>glosas</strong>.  </p>
+</div>
+<hr />
+<h2 id="hospital-dia">Hospital-Dia</h2>
+<h3 id="introducao_8">Introdução</h3>
+<p>O <strong>Hospital-Dia</strong> é uma modalidade assistencial destinada a pacientes que necessitam de atendimento contínuo, mas sem necessidade de internação prolongada. Este serviço oferece suporte diagnóstico e terapêutico, garantindo o acompanhamento médico sem a necessidade de pernoite.</p>
+<div class="admonition warnings">
+<p class="admonition-title">Registro</p>
+<p>Todos os registros devem ser <strong>realizados no SIGH e no prontuário físico</strong>.</p>
+</div>
+<hr />
+<h3 id="acoes-e-documentos-obrigatorios_8">Ações e Documentos Obrigatórios</h3>
+<h3 id="avaliacao-e-acompanhamento"><strong>Avaliação e Acompanhamento</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Avaliar paciente</strong></td>
+<td>Registro obrigatório contendo: <br> a) Hipóteses diagnósticas <br> b) Diagnóstico e tratamento <br> c) Evolução clínica <br> d) Prescrição médica <br> e) Registro de evolução diária <br> f) Notificação compulsória de doenças (se aplicável) <br> Deve conter <strong>DATA, HORA, ASSINATURA e CARIMBO</strong> do profissional responsável.</td>
+</tr>
+<tr>
+<td><strong>Registrar diárias de acompanhante (se aplicável)</strong></td>
+<td>Documento comprobatório com assinatura do responsável e do acompanhante. O registro pode ser feito pela equipe de enfermagem ou técnicos do Serviço de Nutrição e Dietética (SND).</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="solicitacao-de-exames-e-procedimentos_3"><strong>Solicitação de Exames e Procedimentos</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Solicitar exame no SIGH (caso necessário)</strong></td>
+<td>Registro obrigatório contendo: <br> a) Intercorrências <br> b) Materiais utilizados <br> c) Procedimentos realizados <br> d) Prescrições, dispensações e administrações de medicamentos <br> e) No caso de exames in loco, verificar quais resultados/laudos são obrigatórios no prontuário físico para fins de faturamento <br> f) No caso de exames terceirizados, os resultados/laudos devem ser <strong>impressos e anexados ao prontuário físico</strong>.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="manejo-clinico-e-administracao-de-medicamentos"><strong>Manejo Clínico e Administração de Medicamentos</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Administrar medicamentos (se necessário)</strong></td>
+<td><strong>Prescrição médica obrigatória</strong> com posologia, quantidade e horário de administração. O registro deve conter: <br> a) Quantidade dispensada <br> b) Data e hora de administração ou recusa do paciente</td>
+</tr>
+<tr>
+<td><strong>Registrar refeições fornecidas (se aplicável)</strong></td>
+<td>O controle deve ser realizado no prontuário e no formulário de liberação do Serviço de Nutrição Dietética (SND).</td>
+</tr>
+<tr>
+<td><strong>Realizar procedimentos médicos/enfermagem (se necessário)</strong></td>
+<td>Registro obrigatório contendo: <br> a) Pedido médico ou indicação pela equipe multidisciplinar <br> b) Lista de materiais utilizados com quantidades <br> c) Quantidade de procedimentos realizados</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="alta-e-transferencia"><strong>Alta e Transferência</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Registrar sumário de alta no prontuário e no SIGH</strong></td>
+<td><strong>Sumário de Alta</strong> com data, hora, assinatura e carimbo do médico responsável.</td>
+</tr>
+<tr>
+<td><strong>Encaminhar paciente para internação (se necessário)</strong></td>
+<td>Documentação obrigatória contendo: <br> a) Mudança no <strong>Centro de Custos</strong> <br> b) Uma via do <strong>Sumário de Alta</strong> <br> c) Uma via do <strong>laudo de solicitação de transferência do SUSFácilMG</strong> <br> d) Uma via do <strong>laudo da Autorização de Internação Hospitalar (AIH)</strong>.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div class="admonition warnings">
+<p class="admonition-title">Revisão e Check-list Final</p>
+<p>Antes do encaminhamento ao SAME, o prontuário deve ser revisado conforme:
+- <strong>Tabela-Resumo de Documentos por Etapa para Faturamento FHEMIG</strong>.
+- <strong>Check-list de Fechamento de Prontuário</strong>.</p>
+</div>
+<hr />
+<div class="admonition note">
+<p class="admonition-title">Observações Gerais</p>
+<p>✔ Todos os profissionais devem estar cadastrados no <strong>SIGH e CNES</strong>, com <strong>CNS e CBO</strong>.<br />
+✔ O prontuário deve conter <strong>assinatura e carimbo</strong> do profissional responsável.<br />
+✔ Medicamentos, curativos e materiais utilizados devem ser registrados corretamente para evitar <strong>glosas</strong>.  </p>
+</div>
+<hr />
+<h2 id="servico-auxiliar-de-diagnostico-e-terapia-sadt">Serviço Auxiliar de Diagnóstico e Terapia (SADT)</h2>
+<h3 id="introducao_9">Introdução</h3>
+<p>O <strong>Serviço Auxiliar de Diagnóstico e Terapia (SADT)</strong> engloba exames laboratoriais, de imagem e procedimentos terapêuticos auxiliares ao diagnóstico. A correta documentação desses serviços é essencial para a continuidade do cuidado ao paciente e para a efetividade do faturamento hospitalar.</p>
+<p>Todos os registros devem ser <strong>realizados no SIGH e no prontuário físico</strong>.</p>
+<hr />
+<h3 id="acoes-e-documentos-obrigatorios_9">Ações e Documentos Obrigatórios</h3>
+<h3 id="recebimento-e-solicitacao-de-exames"><strong>Recebimento e Solicitação de Exames</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Receber a solicitação de exame</strong></td>
+<td>Registro obrigatório no <strong>SIGH</strong> contendo: <br> a) Intercorrências <br> b) Materiais utilizados <br> c) Procedimentos realizados <br> d) Prescrições, dispensações e administrações de medicamentos <br> e) No caso de exames <strong>in loco</strong>, verificar quais resultados/laudos são obrigatórios no prontuário físico para faturamento <br> f) No caso de exames <strong>terceirizados</strong>, todos os resultados/laudos devem ser <strong>impressos e anexados ao prontuário físico</strong>.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="coleta-e-realizacao-de-exames"><strong>Coleta e Realização de Exames</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Coletar amostra biológica (se exame laboratorial)</strong></td>
+<td>Registro no prontuário e no sistema.</td>
+</tr>
+<tr>
+<td><strong>Realizar exame de imagem (se necessário)</strong></td>
+<td>Registro obrigatório no <strong>SIGH</strong> contendo: <br> a) Intercorrências <br> b) Materiais utilizados <br> c) Procedimentos realizados <br> d) Prescrições, dispensações e administrações de medicamentos <br> e) No caso de exames <strong>in loco</strong>, verificar quais resultados/laudos são obrigatórios no prontuário físico para faturamento – inserir laudos, exames e imagens.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="disponibilizacao-de-resultados"><strong>Disponibilização de Resultados</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Disponibilizar resultado no SIGH e no prontuário físico</strong></td>
+<td>Impressão e anexação do laudo ao prontuário físico (caso necessário).</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="encaminhamento-de-pacientes"><strong>Encaminhamento de Pacientes</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Encaminhar paciente para outro setor ou especialidade (se necessário)</strong></td>
+<td>Registro do encaminhamento no prontuário e no <strong>SIGH</strong>.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div class="admonition warnings">
+<p class="admonition-title">Revisão e Check-list Final</p>
+<p>Antes do encaminhamento ao SAME, o prontuário deve ser revisado conforme:
+- <strong>Tabela-Resumo de Documentos por Etapa para Faturamento FHEMIG</strong>.
+- <strong>Check-list de Fechamento de Prontuário</strong>.</p>
+</div>
+<hr />
+<div class="admonition note">
+<p class="admonition-title">Observações Gerais</p>
+<p>✔ Todos os profissionais devem estar cadastrados no <strong>SIGH e CNES</strong>, com <strong>CNS e CBO</strong>.<br />
+✔ O prontuário deve conter <strong>assinatura e carimbo</strong> do profissional responsável.<br />
+✔ Medicamentos, curativos e materiais utilizados devem ser registrados corretamente para evitar <strong>glosas</strong>.  </p>
+</div>
+<hr />
+<h2 id="hemodialise-e-hemotransfusao_1">Hemodiálise e Hemotransfusão</h2>
+<h3 id="introducao_10">Introdução</h3>
+<p>A <strong>Hemodiálise</strong> e a <strong>Hemotransfusão</strong> são procedimentos críticos que exigem documentação rigorosa para garantir a segurança do paciente e a correta cobrança dos serviços prestados. Todos os registros devem ser <strong>realizados no SIGH e no prontuário físico</strong>.</p>
+<hr />
+<h3 id="acoes-e-documentos-obrigatorios_10">Ações e Documentos Obrigatórios</h3>
+<h3 id="preparacao-para-o-procedimento"><strong>Preparação para o Procedimento</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Conferir material necessário</strong></td>
+<td>Realizar <strong>dupla-checagem</strong> da prescrição e do cartão da bolsa (no caso de hemotransfusão).</td>
+</tr>
+<tr>
+<td><strong>Avaliar paciente</strong></td>
+<td>Verificação obrigatória dos <strong>sinais vitais</strong> antes do procedimento.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="realizacao-da-hemodialise"><strong>Realização da Hemodiálise</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Realizar hemodiálise</strong></td>
+<td>É obrigatório anexar ao prontuário/registrar no <strong>SIGH</strong>: <br> a) <strong>Prescrição médica</strong> com checagem da hemodiálise <br> b) <strong>Comprovante da hemodiálise</strong> fornecido pelo prestador com dados do procedimento <br> c) Cadastro Nacional de Saúde (<strong>CNS</strong>) e Classificação Brasileira de Ocupações (<strong>CBO</strong>) do médico responsável <br> d) <strong>Evolução dos profissionais</strong> que assistiram o paciente durante o procedimento <br> Deve conter <strong>DATA, HORA, ASSINATURA e CARIMBO</strong> dos profissionais de saúde envolvidos.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="realizacao-da-hemotransfusao"><strong>Realização da Hemotransfusão</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Realizar hemotransfusão</strong></td>
+<td>É obrigatório anexar ao prontuário/registrar no <strong>SIGH</strong>: <br> a) <strong>Formulário da hemotransfusão</strong> com horário de início e fim do procedimento <br> b) <strong>Formulário de Intercorrência Transfusional (FIT)</strong> <br> c) <strong>Número da bolsa</strong> de hemocomponente <br> d) <strong>Tipo de hemocomponente</strong> <br> e) <strong>Registro da dupla-checagem</strong> da prescrição e do cartão da bolsa <br> f) <strong>Registro dos sinais vitais</strong> do paciente antes, durante e após o procedimento <br> g) <strong>Resultado de tipagem sanguínea</strong> <br> h) <strong>Evolução dos profissionais</strong> que assistiram o paciente durante o procedimento <br> Deve conter <strong>DATA, HORA, ASSINATURA e CARIMBO</strong> dos profissionais responsáveis.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="monitoramento-e-evolucao-do-paciente"><strong>Monitoramento e Evolução do Paciente</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Registrar evolução clínica</strong></td>
+<td>Registro obrigatório no <strong>SIGH</strong> e no prontuário físico.</td>
+</tr>
+<tr>
+<td><strong>Retornar paciente para a Unidade de Internação (se exame não for beira leito)</strong></td>
+<td>Atualizar a unidade de destino e garantir a continuidade do cuidado.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div class="admonition warnings">
+<p class="admonition-title">Revisão e Check-list Final</p>
+<p>Antes do encaminhamento ao SAME, o prontuário deve ser revisado conforme:
+- <strong>Tabela-Resumo de Documentos por Etapa para Faturamento FHEMIG</strong>.
+- <strong>Check-list de Fechamento de Prontuário</strong>.</p>
+</div>
+<hr />
+<div class="admonition note">
+<p class="admonition-title">Observações Gerais</p>
+<p>✔ Todos os profissionais devem estar cadastrados no <strong>SIGH e CNES</strong>, com <strong>CNS e CBO</strong>.<br />
+✔ O prontuário deve conter <strong>assinatura e carimbo</strong> do profissional responsável.<br />
+✔ Medicamentos, curativos e materiais utilizados devem ser registrados corretamente para evitar <strong>glosas</strong>.  </p>
+</div>
+<hr />
+<h2 id="fechamento-de-prontuario">Fechamento de Prontuário</h2>
+<h3 id="introducao_11">Introdução</h3>
+<p>O <strong>fechamento de prontuário</strong> é uma etapa fundamental para garantir que toda a documentação esteja completa e em conformidade com os requisitos de faturamento. Antes do arquivamento, é necessário revisar todos os registros, documentos e informações.</p>
+<p>Todos os registros devem ser <strong>realizados no SIGH e no prontuário físico</strong>.</p>
+<hr />
+<h3 id="acoes-e-documentos-obrigatorios_11">Ações e Documentos Obrigatórios</h3>
+<h3 id="revisao-do-prontuario"><strong>Revisão do Prontuário</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Conferir se a documentação está completa</strong></td>
+<td>Verificar a descrição de todos os procedimentos e, no caso de parto, confirmar se a documentação do recém-nascido está anexada ao prontuário.</td>
+</tr>
+<tr>
+<td><strong>Devolver para a unidade de origem (caso haja pendências)</strong></td>
+<td>Todos os documentos devem conter <strong>DATA, HORA, ASSINATURA e CARIMBO</strong> dos profissionais responsáveis.</td>
+</tr>
+<tr>
+<td><strong>Encaminhar para a Comissão de Prontuário ou Comissão de Óbito (se aplicável)</strong></td>
+<td>Seguir as normativas estabelecidas pela <strong>Resolução do Conselho Federal de Medicina nº 1.638/2002</strong> e demais diretrizes internas da FHEMIG.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="encaminhamento-do-prontuario"><strong>Encaminhamento do Prontuário</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Enviar para o Serviço de Arquivamento Médico e Estatístico (SAME)</strong></td>
+<td>Revisar conforme: <br> a) <strong>Documentações obrigatórias de etapas anteriores (Anexos I a XI)</strong>; <br> b) <strong>Check-list de fechamento de prontuário (Anexo XV)</strong>. <br> <strong>É imprescindível a presença de DATA, HORA, ASSINATURA e CARIMBO em todos os registros.</strong></td>
+</tr>
+<tr>
+<td><strong>Encaminhar para o Setor de Faturamento</strong></td>
+<td>O <strong>espelho da AIH</strong> deve conter assinatura e carimbo da <strong>Diretoria Clínica e do Supervisor Hospitalar</strong>.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div class="admonition warnings">
+<p class="admonition-title">Revisão e Check-list Final</p>
+</div>
+<p>Antes do envio ao SAME, deve-se garantir:
+    - <strong>Todos os documentos obrigatórios anexados</strong>.
+    - <strong>Assinaturas e carimbos presentes</strong>.
+    - <strong>Check-list de Fechamento de Prontuário preenchido corretamente</strong>.</p>
+<hr />
+<div class="admonition notes">
+<p class="admonition-title">Observações Gerais</p>
+<p>✔ Todos os profissionais devem estar cadastrados no <strong>SIGH e CNES</strong>, com <strong>CNS e CBO</strong>.<br />
+✔ O prontuário deve conter <strong>assinatura e carimbo</strong> do profissional responsável.<br />
+✔ Materiais, medicamentos e procedimentos realizados devem ser <strong>corretamente documentados</strong> para evitar <strong>glosas</strong>.  </p>
+</div>
+<hr />
+<h2 id="encaminhamento-para-faturamento">Encaminhamento para Faturamento</h2>
+<h3 id="introducao_12">Introdução</h3>
+<p>O <strong>Encaminhamento para Faturamento</strong> é a última etapa do processo de atendimento, garantindo que todos os serviços prestados sejam corretamente registrados e faturados. Essa etapa envolve a conferência de documentos, a digitalização de informações e a submissão dos registros aos sistemas de gestão hospitalar.</p>
+<div class="admonition warnings">
+<p class="admonition-title">Registros</p>
+<p>Todos os registros devem ser <strong>realizados no SIGH e no prontuário físico</strong>.</p>
+</div>
+<hr />
+<h2 id="acoes-e-documentos-obrigatorios_12">Ações e Documentos Obrigatórios</h2>
+<h3 id="conferencia-inicial"><strong>Conferência Inicial</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Conferir documentação do prontuário</strong></td>
+<td>Todos os documentos devem estar completos e assinados.</td>
+</tr>
+<tr>
+<td><strong>Verificar pendências no prontuário</strong></td>
+<td>Identificação de inconsistências, que devem ser corrigidas antes do envio ao faturamento.</td>
+</tr>
+<tr>
+<td><strong>Registrar na Planilha de Controle</strong></td>
+<td>Se houver pendências, o prontuário deve ser retornado para regularização.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="processamento-do-faturamento"><strong>Processamento do Faturamento</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Encaminhar prontuário para o setor de faturamento</strong></td>
+<td>Envio do prontuário para auditoria e conferência de valores.</td>
+</tr>
+<tr>
+<td><strong>Codificar procedimentos</strong></td>
+<td>Todos os procedimentos realizados devem ser codificados conforme as regras do SUS e TUSS.</td>
+</tr>
+<tr>
+<td><strong>Digitação dos procedimentos no SISAIH/SIA</strong></td>
+<td>Inserção dos dados no <strong>Sistema de Informação Hospitalar (SIH)</strong> ou <strong>Sistema de Informação Ambulatorial (SIA)</strong>.</td>
+</tr>
+<tr>
+<td><strong>Exportação do arquivo para a Secretaria Municipal de Saúde (SMS)</strong></td>
+<td>Envio das informações para validação pelo município e Ministério da Saúde.</td>
+</tr>
+<tr>
+<td><strong>Gerar número de Autorização de Internação Hospitalar (AIH)</strong></td>
+<td>Impressão e anexação do número da AIH no laudo correspondente.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="revisao-e-ajuste-de-pendencias"><strong>Revisão e Ajuste de Pendências</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ação</strong></th>
+<th><strong>Documento/Informação Obrigatória</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Receber e conferir a prévia do processamento</strong></td>
+<td>Verificar inconsistências antes do envio final.</td>
+</tr>
+<tr>
+<td><strong>Encaminhar para auditor municipal</strong></td>
+<td>Revisão do faturamento para autorizações adicionais, se necessário.</td>
+</tr>
+<tr>
+<td><strong>Analisar e ajustar glosas</strong></td>
+<td>Caso haja contas glosadas no relatório de inconsistências da SMS, os ajustes devem ser feitos antes da submissão final.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div class="admonition note">
+<p class="admonition-title">Revisão e Check-list Final</p>
+<p>Antes do envio definitivo, deve-se garantir:
+- <strong>Todos os documentos obrigatórios anexados</strong>.
+- <strong>Codificação correta dos procedimentos</strong>.
+- <strong>Assinaturas e carimbos presentes em todos os registros</strong>.
+- <strong>Check-list de fechamento de prontuário preenchido corretamente</strong>.</p>
+</div>
+<hr />
+<div class="admonition warnings">
+<p class="admonition-title">Observações Gerais</p>
+<p>✔ Todos os profissionais devem estar cadastrados no <strong>SIGH e CNES</strong>, com <strong>CNS e CBO</strong>.<br />
+✔ O prontuário deve conter <strong>assinatura e carimbo</strong> do profissional responsável.<br />
+✔ Materiais, medicamentos e procedimentos realizados devem ser <strong>corretamente documentados</strong> para evitar <strong>glosas</strong>.<br />
+✔ Os envios de dados devem obedecer ao <strong>cronograma estabelecido pelo Ministério da Saúde e pela SMS</strong>.  </p>
+</div>
+<hr />
+<h2 id="referencias">Referências</h2>
+<ul>
+<li><strong>SIA</strong> – Sistema de Informações Ambulatoriais do SUS.  </li>
+<li><strong>SIH</strong> – Sistema de Informação Hospitalar do SUS.  </li>
+<li><strong>SIGTAP</strong> – Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos e OPM do SUS.  </li>
+<li>Para dúvidas, entrar em contato pelo e-mail: <a href="mailto:adc.faturamento@fhemig.mg.gov.br">adc.faturamento@fhemig.mg.gov.br</a>.  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.60a45f97.min.js"></script>
+      
+    
+  </body>
+</html>
