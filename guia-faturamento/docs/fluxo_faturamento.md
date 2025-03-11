@@ -83,7 +83,7 @@ A solicitação de internação pode ser encaminhada via Central de Regulação 
 
 ---
 
-## Autorização de Internação Hospitalar (AIH)
+# Autorização de Internação Hospitalar (AIH)
 É um documento essencial no (SUS) para formalizar a internação de um paciente. A AIH é emitida para registrar, autorizar e financiar a internação hospitalar e o tratamento associado, incluindo procedimentos e medicamentos necessários ao cuidado do paciente.
 
 ### Dados pessoais e administrativos
@@ -116,7 +116,7 @@ Essas informações registradas no prontuário são essenciais para garantir a q
 
 ---
 
-### Numeração de AIH
+## Numeração de AIH
 - **Geração do número da AIH:** Após a aprovação, a Central de Regulação gera o número da AIH, único para cada internação. Esse número identifica oficialmente o atendimento no sistema SUS e permite o controle e o faturamento dos serviços prestados.
 - **Envio à unidade:** O número da AIH é enviado à unidade, que o registra no prontuário do paciente. Esse número é essencial para documentar todo o atendimento, desde a admissão até a alta, e para o faturamento junto ao SUS.
 - **Acompanhamento do status:** A unidade pode acompanhar o status da solicitação e a numeração da AIH por meio dos sistemas de regulação de saúde estadual ou municipal, integrados ao sistema nacional do SUS.

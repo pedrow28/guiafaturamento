@@ -1,5 +1,122 @@
+
 ![Image](./imagens/logo.png)
-# Tabela SIGTAP
+
+# Cadastro Nacional de Estabelecimentos de Saúde (CNES)
+
+O **Cadastro Nacional de Estabelecimentos de Saúde (CNES)** é o sistema de informação oficial de cadastramento de informações de todos os estabelecimentos de saúde no país, no tocante à realidade da capacidade instalada e mão-de-obra assistencial, independentemente de sua natureza jurídica (públicos ou privados) ou de integrarem o SUS.
+
+Ele é fundamental para que o serviço de saúde realize o faturamento no Sistema Único de Saúde (**SUS**). 
+
+O CNES registra e categoriza os estabelecimentos e profissionais, garantindo a conformidade com as exigências do Ministério da Saúde para o recebimento de repasses e pagamento de procedimentos.
+
+!!! info "Dica Importante"
+    O CNES deve ser atualizado regularmente para evitar bloqueios no faturamento.
+
+
+### Principais requisitos e etapas para o cadastro no CNES com fins de faturamento:
+- Identificação do estabelecimento, com informações detalhadas sobre sua localização e estrutura.
+- Registro dos profissionais de saúde e sua respectiva classificação de atuação.
+- Adequação dos serviços oferecidos às normas estabelecidas pelo Ministério da Saúde.
+- Atualização constante das informações no sistema para garantir a validade do cadastro.
+
+<figure markdown>
+  ![CNES](imagens/info_cnes.PNG){ width="800" }
+  <figcaption>Informações disponíveis no CNES.</figcaption>
+</figure>
+
+<figure markdown>
+  ![Página inicial do CNES. Elaboração própria.](imagens/site_cnes.PNG){ width="600" }
+  <figcaption>Página inicial do CNES. Elaboração própria.</figcaption>
+</figure>
+
+O CNES é destinado a toda a população brasileira e envolve os seguintes **atores e papéis**:
+
+| **Atores**                  | **Papel** |
+|-----------------------------|----------|
+| **Estabelecimentos de Saúde** | Registram todos os seus dados, SUS ou não SUS, por meio da aplicação disponibilizada pelo Ministério da Saúde e os enviam periodicamente. |
+| **Secretarias de Saúde**      | Acessam os estabelecimentos de saúde do seu território por meio do CNES e são responsáveis pela manutenção dos dados dos estabelecimentos sob a gestão de cada ente federado. |
+| **Ministério da Saúde**       | Acessa todos os estabelecimentos de saúde do país no CNES, além de monitorar indicadores de envio de dados por estados, municípios e regiões de saúde. |
+| **Cidadãos**                  | Podem consultar os estabelecimentos de saúde através da consulta pública no site do CNES, visualizando os dados públicos por meio de ferramentas como **Tabwin** e **Tabnet**. |
+
+
+O CNES coleta as seguintes **informações principais**:
+
+- **Dados gerais básicos**
+- **Endereço e localização**
+- **Gestor responsável** (como secretarias de saúde)
+- **Tipos de atendimento** (internações, ambulatórios, etc.)
+- **Características do estabelecimento** (tipo, categoria, tributos, etc.)
+- **Equipamentos disponíveis** (como RX, tomógrafo, ultrassom, etc.)
+- **Serviços de apoio** (como serviços sociais e lavanderias)
+- **Especialidades médicas** (como cardiologia e farmácia)
+- **Estruturas físicas** (número de leitos, salas, etc.)
+- **Profissionais que atuam** (no SUS e fora dele)
+- **Equipes de saúde** (como as de saúde da família)
+- **Cooperativas**
+
+O cadastro no CNES serve como base para diversos sistemas, incluindo:
+
+- **Sistema de Informação Ambulatorial (SIA/SUS)**
+- **Sistema de Informação Hospitalar (SIH/SUS)**
+- **Cartão Nacional de Saúde (CNS)**
+- **Sistema de Informação de Regulação**
+- **Sistema de Informação da Programação Pactuada e Integrada**
+- **Sistema de Informações da Anvisa**
+- **Sistema de Informações da ANS**
+- **Gerenciador de Informações Locais (GIL)**
+
+!!! tip "Importância do CNES"
+    É de suma importância que os estabelecimentos de saúde mantenham seus dados no CNES **atualizados** para que os sistemas tenham conhecimento da **capacidade instalada** do local, incluindo estrutura física, habilitações e profissionais e suas especialidades. A falta de registro no CNES da capacidade do estabelecimento pode resultar em **glosas e bloqueios da AIH** (Autorização de Internação Hospitalar).
+
+!!! warning "Atualização obrigatória"
+    Os **artigos 371 e 372 da Portaria de Consolidação nº 01/GM/MS/2017** estabelecem que a atualização do cadastro de estabelecimentos de saúde deve ocorrer em meio eletrônico, no mínimo mensalmente, ou sempre que houver alterações nas informações. O CNES permite a atualização diária da base nacional, possibilitando o envio de arquivos da base local para a Base de Dados Nacional do CNES sempre que houver necessidade.
+
+Mesmo quando os dados cadastrais de um estabelecimento de saúde permanecem inalterados em uma competência, recomenda-se o envio mensal. Esse envio será reconhecido como **certidão negativa** e atualizará a data da última atualização nacional. As datas de envio e encerramento de cada competência podem ser consultadas no cronograma disponível no **Portal CNES**, no menu [Acesso Rápido/Cronograma](https://wiki.saude.gov.br/cnes/index.php/Cronograma).
+
+
+---
+### Classificação Brasileira de Ocupações (CBO)
+O **CBO** é essencial para definir o papel de cada profissional no estabelecimento. A correspondência entre o **CBO** e os procedimentos que podem ser faturados é verificada automaticamente no sistema.
+
+!!! warning "Obrigatório o cadastro de profissionais adequados"
+
+    Profissionais com especializações específicas são necessários para a autorização de procedimentos de **alta complexidade**.
+
+---
+
+### Cadastro de serviços e habilitações
+Para que o estabelecimento possa realizar certos procedimentos de **alta complexidade** ou especializados, ele deve ser **habilitado no CNES**. Exemplos de serviços que exigem habilitação:
+
+- Terapia Intensiva (**UTI**).
+- Terapia Nutricional.
+- Oncologia.
+- Serviços de Hemodiálise.
+
+Cada **habilitação** permite o faturamento de **procedimentos específicos**. O não cumprimento das especificações pode resultar em **rejeição ou glosa**.
+
+---
+
+### Cadastro de leitos
+Os leitos devem ser **identificados por tipo**, conforme as diretrizes estabelecidas pelo **Ministério da Saúde**. Exemplos:
+
+- **Enfermaria**.
+- **UTI** (Unidade de Terapia Intensiva).
+- **UCI Neonatal** (Unidade de Cuidados Intermediários).
+
+A correta categorização desses leitos garante que os pacientes sejam **alocados adequadamente**, conforme suas **necessidades clínicas** e o tipo de atendimento que precisam.
+
+---
+
+### Cadastro de equipamentos e estrutura
+Equipamentos de **uso crítico**, como **tomógrafos** e **ultrassonógrafos**, devem estar registrados no **CNES**, especificando:
+- **Capacidade**.
+- **Compatibilidade com o SUS**.
+
+O uso de **materiais e equipamentos** vinculados a códigos específicos (como **órteses e próteses**) também deve ser compatível com a **Tabela SIGTAP** para fins de faturamento.
+
+---
+
+# SIGTAP
 
 ## Classificação e compatibilidades dos procedimentos – SIGTAP
 A tabela **SIGTAP** define os procedimentos, materiais e medicamentos que podem ser cobrados, limitando a quantidade e compatibilidade com diagnósticos (**CID**) e condições específicas do paciente. A tabela define os códigos dos procedimentos, materiais e medicamentos utilizados no faturamento.
@@ -430,3 +547,80 @@ As regras condicionadas presentes no **SIGTAP** estão na tabela a seguir com:
 | 010 Condiciona financiamento FAEC pela faixa etária e pela habilitação do estabelecimento | O procedimento 02.03.01.008-6, realizado em pessoa com idade compreendida entre 25 a 64 anos e quando realizado em estabelecimento de saúde habilitado (32.02 e 32.03), terá o tipo de financiamento FAEC e sub-tipo de financiamento 040057. | Inicial 09/2014 / Final 01/2019 | Informe CGSI 09/2014 de 08/09/2014 / Portaria GM 15 de 03/01/2018   |
 
 Regras condicionadas. [Fonte aqui.](https://wiki.saude.gov.br/sigtap/index.php/Gerais)
+
+---
+
+
+# Cartão Nacional de Saúde (CNS)
+
+O [**Cartão Nacional de Saúde (CNS)**](https://www.gov.br/saude/pt-br/acesso-a-informacao/acoes-e-programas/cns) é o documento que **identifica o usuário do SUS**. Ele contém informações como **nome, data de nascimento, telefone, endereço, CPF, RG**, entre outros. O número do CNS funciona como uma **chave de integração** dos sistemas de saúde que precisam identificar pessoas, como pacientes, operadores ou profissionais de saúde. Isso possibilita a criação de um **histórico de atendimentos** de cada pessoa no SUS, permitindo o acesso a dados de sistemas como o de atenção básica, hospitalar e de dispensação de medicamentos, por exemplo.
+
+Os principais **benefícios do CNS** incluem:
+
+- **Identificação rápida do usuário**
+- **Acesso ao prontuário** pelo número do cartão
+- **Conexão entre profissional, paciente, hospital e atendimento**
+- **Registro dos atendimentos, consultas e exames realizados**
+- **Controle de medicamentos dispensados**
+- **Atualização de dados cadastrais**
+
+O CNS faz parte da política de **e-Saúde do Ministério da Saúde**, que visa organizar e integrar informações sobre pessoas, serviços de saúde e procedimentos. Isso facilita a **gestão do SUS** e o atendimento ao cidadão, além de ajudar os gestores e profissionais da saúde a realizarem um trabalho mais qualificado.
+
+A partir do cadastramento do usuário e da emissão do CNS, com a integração dos sistemas por meio do número do cartão, torna-se possível **identificar o usuário em todos os seus contatos com o SUS** e acompanhar sua evolução dentro do sistema, com efeitos positivos tanto na **atenção individual** quanto no **planejamento das ações de saúde**.
+
+!!! warning "Obrigatoriedade do CNS"
+    Conforme a **Portaria Conjunta nº 2, de 15 de março de 2012** do Ministério da Saúde, o preenchimento do número do CNS do usuário é **obrigatório para o registro dos procedimentos ambulatoriais e hospitalares** nos instrumentos de registro das ações de saúde do Ministério da Saúde. O registro do número do CNS deve ser providenciado no ato da admissão do paciente.
+
+Caso o usuário das ações e serviços de saúde não possua cadastro na **Base Nacional de Dados dos Usuários das Ações e Serviços de Saúde**, o estabelecimento de saúde deve realizar o cadastro por meio do aplicativo disponibilizado pelo DATASUS na internet.
+
+O preenchimento do número do CNS é **opcional** nos instrumentos de registro das ações de saúde nos seguintes casos:
+
+1. Para ações de saúde realizadas em **doadores falecidos**, conforme a Lei 9.434, de 04 de fevereiro de 2007.
+2. Quando não for possível informar o número do CNS do paciente em atendimentos de **urgência, acidentes no local de trabalho, acidentes no trajeto para o trabalho**, outros tipos de acidentes de trânsito ou **outras lesões e envenenamentos**, conforme descrito na referida portaria.
+
+O estabelecimento e o gestor de saúde devem apresentar **justificativa escrita** nos instrumentos de registro, descrevendo a razão da falta da informação do número do CNS na ação de saúde. As ações de saúde apresentadas sem o número do CNS estarão **bloqueadas nos sistemas de informação** e somente serão desbloqueadas mediante o aceite das justificativas pelas instâncias superiores.
+
+É também **obrigatória a inclusão do número do CNS do profissional solicitante, executante e/ou autorizador** das ações de saúde nos instrumentos de registro, como:
+
+1. **Autorizações de Internação Hospitalar (AIH)**
+2. **Autorizações de Procedimentos Ambulatoriais (APAC)**
+3. **Boletim de Produção Ambulatorial Individualizada (BPA I)**
+
+# Tasy
+
+A Fundação Hospitalar do Estado de Minas Gerais (Fhemig) está implementando o sistema eletrônico de gestão hospitalar **Philips Tasy**, uma das plataformas mais completas e modernas disponíveis atualmente no mercado. O Tasy é um software abrangente que integra, em uma única solução, processos administrativos, assistenciais e financeiros das unidades hospitalares.
+
+## O que é o Tasy?
+
+O **Tasy** é um sistema eletrônico de gestão hospitalar desenvolvido pela Philips, que unifica e integra diversas áreas administrativas e assistenciais em uma única plataforma. A solução contempla desde o prontuário eletrônico até processos financeiros, permitindo maior controle, eficiência e segurança nas operações hospitalares.
+
+## Principais funcionalidades do sistema
+
+O sistema Tasy oferece diversas funcionalidades importantes para a rotina hospitalar:
+
+- **Prontuário Eletrônico do Paciente:** registro único, integrado e acessível em tempo real.
+- **Gestão de pacientes:** histórico clínico completo, medicamentos prescritos, consultas agendadas e tratamentos realizados.
+- **Prescrição médica eletrônica:** redução de erros, economia de tempo e integração direta com farmácia hospitalar.
+- **Gestão de leitos:** monitoramento em tempo real da ocupação e disponibilidade dos leitos hospitalares.
+- **Controle financeiro integrado:** faturamento SUS e convênios, controle de receitas e despesas, geração automatizada de relatórios financeiros.
+- **Gerenciamento completo de suprimentos:** controle eficiente das compras, estoque e validade dos produtos.
+- **Integração com dispositivos médicos:** comunicação direta com equipamentos médicos para coleta automática de dados clínicos.
+- **Relatórios e indicadores gerenciais:** geração automática de relatórios para suporte à tomada de decisões estratégicas.
+
+## Principais benefícios do Tasy para a Fhemig
+
+A implementação do sistema Tasy traz diversos benefícios para as unidades da Fhemig, entre eles:
+
+- ✅ **Prontuário eletrônico integrado:** acesso rápido às informações clínicas dos pacientes, sem necessidade de impressão física.
+- ✅ **Redução significativa de processos manuais:** automatização e padronização das rotinas administrativas e assistenciais.
+- ✅ **Maior segurança dos dados:** proteção avançada das informações clínicas conforme exigências da Lei Geral de Proteção de Dados (LGPD).
+- ✅ **Melhoria na gestão da qualidade assistencial:** por meio da aplicação padronizada de protocolos clínicos atualizados.
+- ✅ **Redução do uso de documentos impressos:** economia financeira e sustentabilidade ambiental.
+- ✅ **Comunicação mais ágil entre setores:** integração completa das informações clínicas e administrativas em tempo real.
+
+
+## Acesso aos Manuais do Sistema Tasy
+
+Para facilitar a utilização correta do sistema pelas equipes das unidades da Fhemig, estão disponíveis manuais completos com orientações detalhadas sobre o uso do sistema. Estes materiais incluem instruções práticas sobre acesso ao sistema, cadastro correto das informações assistenciais e administrativas, prescrição eletrônica, solicitação de exames e muito mais.
+
+📚 [**Acesse aqui os manuais completos do Sistema Tasy (disponível somente via intranet da Fhemig)**](http://10.49.10.204/index.php/menu/sistemas/tasy/tasy-manuais-operacioanais)

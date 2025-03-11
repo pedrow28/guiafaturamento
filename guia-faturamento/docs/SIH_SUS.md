@@ -7,101 +7,96 @@ Instituído pelo Ministério da Saúde e regulamentado pela [**Lei nº 8.080/199
 
 ---
 
-## Classificação e compatibilidades dos procedimentos – SIGTAP
-A tabela **SIGTAP** define os procedimentos, materiais e medicamentos que podem ser cobrados, limitando a quantidade e compatibilidade com diagnósticos (**CID**) e condições específicas do paciente. 
+O **Sistema de Informação Hospitalar (SIH/SUS)** teve suas origens em **1979**, quando o INAMPS e a DATAPREV desenvolveram o **Sistema de Assistência Médico-Hospitalar da Previdência Social/Autorização de Internação Hospitalar (SAMHPS/AIH)**. A principal inovação foi a substituição do pagamento por **item** da antiga **Guia de Internação Hospitalar (GIH)** por um pagamento **por pacote**, via **Autorização de Internação Hospitalar (AIH)**. Essa mudança trouxe previsibilidade ao faturamento hospitalar e aos gastos públicos.
 
-A **Portaria nº 2.848/2007** regulamenta o uso da SIGTAP, estabelecendo padrões para registros e processamento de informações de internações, incluindo limites de quantidade e faixa etária. Esse controle permite auditorias automáticas que identificam **glosas** e inconsistências.
-
----
-
-## Cadastro Nacional de Estabelecimentos de Saúde (CNES)
-O **Cadastro Nacional de Estabelecimentos de Saúde (CNES)** é fundamental para que um serviço de saúde realize o faturamento no Sistema Único de Saúde (**SUS**). 
-
-O CNES registra e categoriza os estabelecimentos e profissionais, garantindo a conformidade com as exigências do Ministério da Saúde para o recebimento de repasses e pagamento de procedimentos.
-
-!!! info "Dica Importante"
-    O CNES deve ser atualizado regularmente para evitar bloqueios no faturamento.
-
-
-### Principais requisitos e etapas para o cadastro no CNES com fins de faturamento:
-- Identificação do estabelecimento, com informações detalhadas sobre sua localização e estrutura.
-- Registro dos profissionais de saúde e sua respectiva classificação de atuação.
-- Adequação dos serviços oferecidos às normas estabelecidas pelo Ministério da Saúde.
-- Atualização constante das informações no sistema para garantir a validade do cadastro.
-
-<figure markdown>
-  ![CNES](imagens/info_cnes.PNG){ width="800" }
-  <figcaption>Informações disponíveis no CNES.</figcaption>
-</figure>
-
-### Cadastro do estabelecimento
-Cada estabelecimento de saúde, como hospitais, clínicas e laboratórios, deve estar registrado no **CNES** com dados completos, incluindo:
-
-- **CNPJ**, endereço e natureza jurídica.
-- **Estrutura física**, equipamentos e leitos.
-
-A classificação do estabelecimento inclui especificações como:
-
-- **Tipo de unidade** (ex: hospital geral, clínica especializada).
-- **Tipo de atendimento oferecido** (ambulatorial, internação, UTI, etc.).
-
-!!! warning "Atualização do CNES"
-    O **gestor local** (municipal ou estadual) é responsável por aprovar o cadastro e as atualizações de informações, conforme exigências de habilitação do **SUS**.
-
-
+Com a **descentralização** das unidades do INAMPS para as **Secretarias Estaduais de Saúde** e a inclusão de **diferentes prestadores de serviços hospitalares**, o sistema passou a ser denominado **Sistema de Informação Hospitalar (SIH)** do SUS, mantendo a **AIH** como o instrumento central.
 
 ---
 
-### Cadastro dos profissionais de saúde
-Cada profissional de saúde precisa ter um registro atualizado no **CNES**, incluindo:
-
-- **CPF**.
-- **Número do Conselho de Classe** (CRM, CRO, etc.).
-- **Especialização**.
-
-### Classificação Brasileira de Ocupações (CBO)
-O **CBO** é essencial para definir o papel de cada profissional no estabelecimento. A correspondência entre o **CBO** e os procedimentos que podem ser faturados é verificada automaticamente no sistema.
-
-!!! warning "Obrigatório o cadastro de profissionais adequados"
-
-    Profissionais com especializações específicas são necessários para a autorização de procedimentos de **alta complexidade**.
-
----
-
-### Cadastro de serviços e habilitações
-Para que o estabelecimento possa realizar certos procedimentos de **alta complexidade** ou especializados, ele deve ser **habilitado no CNES**. Exemplos de serviços que exigem habilitação:
-
-- Terapia Intensiva (**UTI**).
-- Terapia Nutricional.
-- Oncologia.
-- Serviços de Hemodiálise.
-
-Cada **habilitação** permite o faturamento de **procedimentos específicos**. O não cumprimento das especificações pode resultar em **rejeição ou glosa**.
-
----
-
-### Cadastro de leitos
-Os leitos devem ser **identificados por tipo**, conforme as diretrizes estabelecidas pelo **Ministério da Saúde**. Exemplos:
-
-- **Enfermaria**.
-- **UTI** (Unidade de Terapia Intensiva).
-- **UCI Neonatal** (Unidade de Cuidados Intermediários).
-
-A correta categorização desses leitos garante que os pacientes sejam **alocados adequadamente**, conforme suas **necessidades clínicas** e o tipo de atendimento que precisam.
-
----
-
-### Cadastro de equipamentos e estrutura
-Equipamentos de **uso crítico**, como **tomógrafos** e **ultrassonógrafos**, devem estar registrados no **CNES**, especificando:
-- **Capacidade**.
-- **Compatibilidade com o SUS**.
-
-O uso de **materiais e equipamentos** vinculados a códigos específicos (como **órteses e próteses**) também deve ser compatível com a **Tabela SIGTAP** para fins de faturamento.
 
 ---
 
 !!! warning "Regulamentação de auditorias e controle de qualidade"
     A **Portaria GM/MS nº 312/2002** define que todos os serviços processados no **SIH/SUS** estejam sujeitos à auditoria, realizada por **auditores médicos** ou **de gestão do SUS**. Essas auditorias avaliam a conformidade dos registros de internação, revisando as **AIHs** e o **Espelho da AIH** para garantir que todos os serviços estejam de acordo com os protocolos estabelecidos.
+
+---
+
+# Autorização de Internação Hospitalar (AIH)
+É um documento essencial no (SUS) para formalizar a internação de um paciente. A AIH é emitida para registrar, autorizar e financiar a internação hospitalar e o tratamento associado, incluindo procedimentos e medicamentos necessários ao cuidado do paciente.
+
+### Dados pessoais e administrativos
+| **Dado** | **Descrição** |
+|----------|--------------|
+| **Nome do Paciente** | Identificação completa do paciente. |
+| **Data de Nascimento** | Idade e cálculo de elegibilidade. |
+| **Número do CNS** | Vinculação ao SUS. |
+| **Diagnóstico Inicial** | Razão da internação. |
+| **Código da AIH** | Número único para registro e faturamento. |
+
+
+!!! tip "Informações clínicas de admissão"
+- Diagnóstico inicial e motivo da internação.
+- Histórico clínico e antecedentes relevantes, como condições crônicas e alergias.
+- Laudo médico que justifica a internação, contendo sinais, sintomas e possíveis diagnósticos diferenciais.
+
+
+
+---
+
+## Numeração de AIH
+- **Geração do número da AIH:** Após a aprovação, a Central de Regulação gera o número da AIH, único para cada internação. Esse número identifica oficialmente o atendimento no sistema SUS e permite o controle e o faturamento dos serviços prestados.
+- **Envio à unidade:** O número da AIH é enviado à unidade, que o registra no prontuário do paciente. Esse número é essencial para documentar todo o atendimento, desde a admissão até a alta, e para o faturamento junto ao SUS.
+- **Acompanhamento do status:** A unidade pode acompanhar o status da solicitação e a numeração da AIH por meio dos sistemas de regulação de saúde estadual ou municipal, integrados ao sistema nacional do SUS.
+
+**📌 Etapas do Número AIH**
+
+1️⃣ **Solicitação da AIH** pelo hospital.  
+2️⃣ **Análise da Central de Regulação**.  
+3️⃣ **Geração do número AIH** e envio ao hospital.  
+4️⃣ **Registro no prontuário do paciente**.  
+5️⃣ **Monitoramento da internação e faturamento**.  
+
+
+---
+
+### Principais documentos que compõem o prontuário
+O prontuário é um documento fundamental e legal que compila todos os registros e informações sobre a assistência prestada ao paciente durante sua estadia ou tratamento em uma instituição de saúde. Ele contém detalhes essenciais para o acompanhamento médico, histórico do paciente, diagnóstico, procedimentos e tratamentos realizados.
+
+#### Espelho da AIH
+O "Espelho da AIH" é um resumo detalhado que inclui todas as informações da internação, como diagnósticos e procedimentos realizados. Este documento é essencial para a prestação de contas e o faturamento dos serviços.
+
+#### Principais informações contidas no Espelho da AIH:
+- **Dados Administrativos do Paciente:**
+    - Nome completo, data de nascimento, sexo e Cartão Nacional de Saúde (CNS).
+    - Informações de identificação e admissão do paciente na unidade.
+- **Dados da Internação:**
+    - Data de entrada e alta, tempo total de internação.
+    - Código e nome da unidade hospitalar, localização do leito e tipo de atendimento.
+- **Diagnóstico e Procedimentos Realizados:**
+    - CID principal e secundário, justificando a internação e descrevendo a condição clínica.
+    - Procedimentos realizados durante a internação, incluindo cirurgias, exames e terapias.
+- **Prescrição Médica e Medicamentos:**
+    - Registro de medicamentos administrados, com dosagens, frequências e datas de administração.
+- **Motivo da Alta ou Transferência:**
+    - Razão pela qual o paciente teve alta hospitalar, como melhora clínica, transferência ou óbito.
+- **Informações de Custos e Faturamento:**
+    - Detalhamento dos custos dos procedimentos, medicamentos e materiais utilizados.
+- **Assinaturas e Dados dos Profissionais Responsáveis:**
+    - Assinatura do médico responsável e da equipe multiprofissional que acompanhou o paciente.
+
+
+### Registro da assistência prestada ao paciente
+
+### 🏥 Registros Essenciais
+📌 **Exames e procedimentos:** Testes laboratoriais, cirurgias e tratamentos.  
+📌 **Evolução clínica:** Progresso do paciente, resposta ao tratamento.  
+📌 **Prescrição médica:** Medicamentos administrados, dosagem e horário.  
+📌 **Acompanhamento multiprofissional:** Fisioterapeutas, enfermeiros, psicólogos.  
+
+
+Essas informações registradas no prontuário são essenciais para garantir a qualidade do atendimento, a segurança do paciente e a transparência administrativa, além de viabilizar a comunicação entre os profissionais de saúde envolvidos.
+
+Essas informações permitem a análise e o controle da assistência prestada e dos recursos utilizados, além de assegurar a qualidade e a transparência do atendimento no âmbito do SUS.
 
 ---
 
@@ -139,13 +134,7 @@ No **SUS**, o processo de **faturamento hospitalar** envolve uma **equipe multid
 
 ---
 
-## Classificação Brasileira de Ocupações (CBO)
-O **CBO** é obrigatório para especificar os **profissionais habilitados** a realizar procedimentos. Desde a implementação do **CNES** em 2003, o **CBO** tem sido usado para categorizar as ocupações dos profissionais nos estabelecimentos de saúde, sendo admitido pelo **Ministério do Trabalho e Emprego**.
 
-> O **CBO reflete a ocupação do profissional no estabelecimento de saúde**, mas **não é sinônimo de especialidade**.  
-Para **procedimentos de alta complexidade**, é necessário que o **médico seja especialista**. O sistema **SIH/SUS rejeitará registros** se o CBO informado **não corresponder ao que requer a SIGTAP**. Portanto, o profissional deve estar **cadastrado corretamente no CNES** para garantir a aprovação dos procedimentos.
-
----
 
 ## Especialidades médicas
 As especialidades médicas abrangem uma variedade de áreas, cada uma focada em diferentes aspectos do cuidado à saúde. Algumas das principais especialidades médicas incluem:
@@ -356,4 +345,3 @@ Na **CID**, os diagnósticos são divididos em:
 
 ---
 
-# Sistema de Informação Ambulatorial do SUS

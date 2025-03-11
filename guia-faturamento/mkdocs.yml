@@ -8,19 +8,31 @@ theme:
     - navigation.tabs.sticky  # Mantém a barra fixa ao rolar a página
     - navigation.sections  # Agrupa seções em dropdowns
     - toc.integrate  # Move o sumário para a direita
+    
+    
+  language: pt-BR
+  font:
+    text: Arial
+  favicon: imagens/iconwhite.png
+  features:
+      - annouce.dismiss
+  logo: imagens/iconwhite.png
   palette:
     scheme: default  # Mantém o azul padrão
     primary: indigo  # Azul Material padrão
     accent: blue  # Destaque em azul
-
+    
 nav:
   - Introdução: index.md
-  - Tabelas: tabelas.md
-  - Fluxo do Faturamento: fluxo_faturamento.md
-  - SIH/SIA: SIH_SUS.md
+  - Tabelas e Sistemas Auxiliares: cnes.md
+  - Faturamento Ambulatorial: sia.md
+  - Faturamento Hospitalar: SIH_SUS.md
+  - Faturamento APAC: apac.md
   - Tópicos Especiais: topicos.md
   - Auditoria: auditoria.md
-  - Links úteis: links.md
+  - Glosas de faturamento no SUS : glosas.md
+  - Notas Técnicas: notas_tecnicas.md
+  - Referencial Teórico: referencial_teorico.md
 
 markdown_extensions:
   - attr_list
@@ -29,3 +41,12 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
+extra:
+  generator: false
+  
+extra_css:
+  - css/custom.css
+
+plugins:
+  - privacy
+  - search
